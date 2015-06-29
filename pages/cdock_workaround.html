@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>w0lfHub - cDock</title>
+		<meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="shortcut icon" href="../icons/favicon.ico">
+	  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css" media="screen">
+	  <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
+	  <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
+	  <link rel="stylesheet" type="text/css" href="../stylesheets/nav-bar.css" media="screen">
+	  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<section id="nav">
+	    <ul>
+	      <li><a href="http://w0lfschild.github.io">Home</a></li>
+	      <li>
+	        <a href="#">Apps &#9662;</a>
+	        <ul class="dropdown">
+	          <li><a href="#">cDock</a></li>
+	          <li><a href="http://w0lfschild.github.io/pages/cyose.html">Classic Folders</a></li>
+	          <li><a href="http://w0lfschild.github.io/pages/dboot.html">Dark Boot</a></li>
+	          <li><a href="http://w0lfschild.github.io/pages/vpkosx.html">VPK OSX</a></li>
+	          <li><a href="http://w0lfschild.github.io/pages/misc.html">Miscellaneous</a></li>
+	        </ul>
+	      </li>
+	      <li><a href="http://w0lfschild.github.io/pages/about.html">About</a></li>
+	      <li><a href="mailto:aguywithlonghair@gmail.com">Contact</a></li>
+	      <li><a href="http://w0lfschild.github.io/pages/donate.html">Donate</a></li>
+	    </ul>
+	  </section>
+
+		<section class="page-header">
+			<!-- <h1 class="project-name">cDock</h1> -->
+			<h2 class="project-tagline">cDock 10.10.4 Workaround</h2>
+			<!-- <a href="https://github.com/w0lfschild/cDock/releases/latest" class="btn">Download</a>
+			<a href="https://github.com/w0lfschild/cDock" class="btn">&nbsp;&nbsp;GitHub&nbsp;&nbsp;</a>
+			<a href="https://github.com/w0lfschild/cDock/issues" class="btn">&nbsp;&nbsp;&nbsp;Issues&nbsp;&nbsp;&nbsp;</a> -->
+		</section>
+
+		<section class="main-content">
+			<!-- <h3><a id="information" class="anchor" href="#information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Information:</h3>
+			<ul>
+				<li>cDock installs part of <a href="https://github.com/norio-nomura/EasySIMBL">EasySIMBL</a> if it is not already installed.</li>
+				<li>cDock works for both the Bottom Dock and Side dock.</li>
+				<li>The install/uninstall is for the current user only.</li>
+				<li>Dock theming requires OSX 10.9 and above</li>
+			</ul> -->
+			<h3><a id="information" class="anchor" href="#information" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to:</h3>
+			<ol>
+				<li>Download <a href="http://www.culater.net/dl/files/SIMBL-0.9.9.zip">SIMBL 0.9.9</a></li>
+				<li>Unzip and Install SIMBL</li>
+				<li>Copy cDock (and/or ColorfulSidebar) bundles to /Library/Application Support/SIMBL/Plugins/</li>
+				<pre><code># cDock bundle
+$ cp -r /Applications/cDock.app/Contents/Resources/bundles/cDock.bundle /Library/"Application Support"/SIMBL/Plugins/cDock.bundle
+
+# ColorfulSidebar bundle
+$ cp -r /Applications/cDock.app/Contents/Resources/bundles/ColorfulSidebar.bundle /Library/"Application Support"/SIMBL/Plugins/ColorfulSidebar.bundle</pre></code>
+				<li>Open Script Editor</li>
+				<li>Paste in this</li>
+				<pre><code>try
+	tell application "Dock"
+		inject SIMBL into Snow Leopard
+	end tell
+end try
+try
+	tell application "Finder"
+		inject SIMBL into Snow Leopard
+	end tell
+end try</code></pre>
+				<li>Run script</li>
+				<li>Save script</li>
+				<li>Add saved script to your login items</li>
+			</ol>
+			<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wVwQ8sKsdtE" frameborder="0" allowfullscreen></iframe> -->
+			<!-- <h3><a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits:</h3>
+			<ul>
+				<li><a href="http://github.com/norio-nomura/EasySIMBL">EasySIMBL</a></li>
+				<li><a href="http://mstratman.github.io/cocoadialog/">CocoaDialog</a></li>
+				<li><a href="http://bluem.net/en/mac/pashua/">Pashua</a></li>
+				<li><a href="http://cooviewerzoom.web.fc2.com/blackdock">BlackDock</a></li>
+				<li><a href="http://github.com/b3ll/DarkDock">DarkDock</a></li>
+				<li><a href="http://cooviewerzoom.web.fc2.com/">Colored sidebar</a></li>
+				<li><a href="http://sveinbjorn.org/platypus">Platypus</a></li>
+				<li><a href="http://hasseg.org/trash">Trash Script</a></li>
+				<li><a href="http://github.com/petroules/CocoaBackports">CocoaBackports</a></li>
+				<li><a href="http://scafer31000.deviantart.com">Icon</a></li>
+			</ul>
+		</section> -->
+
+		<section class="main-content">
+			<footer class="site-footer">
+				<span class="site-footer-owner"><a href="https://github.com/w0lfschild/cDock">cDock</a> is maintained by <a href="https://github.com/w0lfschild">w0lfschild</a>.</span>
+			</footer>
+		</section>
+
+	</body>
+</html>
