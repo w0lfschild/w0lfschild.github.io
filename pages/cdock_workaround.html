@@ -19,7 +19,7 @@
 	      <li>
 	        <a href="#">Apps &#9662;</a>
 	        <ul class="dropdown">
-	          <li><a href="#">cDock</a></li>
+	          <li><a href="http://w0lfschild.github.io/pages/cdock.html">cDock</a></li>
 	          <li><a href="http://w0lfschild.github.io/pages/cyose.html">Classic Folders</a></li>
 	          <li><a href="http://w0lfschild.github.io/pages/dboot.html">Dark Boot</a></li>
 	          <li><a href="http://w0lfschild.github.io/pages/vpkosx.html">VPK OSX</a></li>
@@ -53,13 +53,10 @@
 				<li>Download <a href="http://www.culater.net/dl/files/SIMBL-0.9.9.zip">SIMBL 0.9.9</a></li>
 				<li>Unzip and Install SIMBL</li>
 				<li>Copy cDock (and/or ColorfulSidebar) bundles to /Library/Application Support/SIMBL/Plugins/</li>
-				<pre><code># cDock bundle
-$ cp -r /Applications/cDock.app/Contents/Resources/bundles/cDock.bundle /Library/"Application Support"/SIMBL/Plugins/cDock.bundle
-
-# ColorfulSidebar bundle
-$ cp -r /Applications/cDock.app/Contents/Resources/bundles/ColorfulSidebar.bundle /Library/"Application Support"/SIMBL/Plugins/ColorfulSidebar.bundle</pre></code>
+				<pre><code>cp -r /Applications/cDock.app/Contents/Resources/bundles/cDock.bundle /Library/"Application Support"/SIMBL/Plugins/cDock.bundle
+cp -r /Applications/cDock.app/Contents/Resources/bundles/ColorfulSidebar.bundle /Library/"Application Support"/SIMBL/Plugins/ColorfulSidebar.bundle</pre></code>
 				<li>Open Script Editor</li>
-				<li>Paste in this</li>
+				<li>Paste in this (make sure you don't have on "smart quotes" aka stupid quotes...)</li>
 				<pre><code>try
 	tell application "Dock"
 		inject SIMBL into Snow Leopard
@@ -69,10 +66,11 @@ try
 	tell application "Finder"
 		inject SIMBL into Snow Leopard
 	end tell
-end try</code></pre>
+end try
+tell me to quit</code></pre>
 				<li>Run script</li>
-				<li>Save script</li>
-				<li>Add saved script to your login items</li>
+				<li>Save script as an application</li>
+				<li>Add saved application to your login items</li>
 			</ol>
 			<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wVwQ8sKsdtE" frameborder="0" allowfullscreen></iframe> -->
 			<!-- <h3><a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits:</h3>
