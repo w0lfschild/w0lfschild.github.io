@@ -2,6 +2,13 @@
   padding: 0;
   list-style: none;
   background: #FFFFFF;
+  position: relative;
+  /*position:fixed;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  /*border-bottom:2px solid #111111;*/
+  /*padding:5px; */
+  /*width: 100%;*/
   /*background: #F8F8F8;*/
   /*background: #f2f2f2;*/
 }
@@ -22,9 +29,10 @@
   background: #939393;
 }
 #nav ul li ul.dropdown{
-  min-width: 160px; /* Set width of the dropdown */
+  min-width: 170px; /* Set width of the dropdown */
   background: #f2f2f2;
   display: none;
+  /*position: relative;*/
   position: absolute;
   z-index: 999;
   left: 0;
