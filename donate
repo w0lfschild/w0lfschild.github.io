@@ -3,13 +3,13 @@
 	<head>
     <title>w0lfHub - Donate</title>
 		<meta charset="UTF-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="shortcut icon" href="../icons/favicon.ico">
-	  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css" media="screen">
-	  <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
-	  <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
-	  <link rel="stylesheet" type="text/css" href="../stylesheets/nav-bar.css" media="screen">
-	  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="icons/favicon.ico">
+	  
+	  	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    	<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    	<link href="theme.css" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="stylesheets/header.css" media="screen">
 		<style>
 			.newspaper {
 			    -webkit-columns: 400px auto; /* Chrome, Safari, Opera */
@@ -20,30 +20,62 @@
 	</head>
 	<body>
 
-		<section id="nav">
-      <ul>
-        <li><a href="http://w0lfschild.github.io">Home</a></li>
-        <li>
-          <a href="#">Apps &#9662;</a>
-          <ul class="dropdown">
-            <li><a href="http://w0lfschild.github.io/pages/cdock.html">cDock</a></li>
-            <li><a href="http://w0lfschild.github.io/pages/cyose.html">Classic Folders</a></li>
-            <li><a href="http://w0lfschild.github.io/pages/dboot.html">Dark Boot</a></li>
-            <li><a href="http://w0lfschild.github.io/pages/vpkosx.html">VPK OSX</a></li>
-            <li><a href="http://w0lfschild.github.io/pages/misc.html">Miscellaneous</a></li>
-          </ul>
-        </li>
-        <li><a href="http://w0lfschild.github.io/pages/about.html">About</a></li>
-        <li><a href="mailto:aguywithlonghair@gmail.com">Contact</a></li>
-        <li><a href="#">Donate</a></li>
-      </ul>
-    </section>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html">w0lfHub</a>
+				</div>
+
+				<div class="navbar-collapse collapse" id="navbar">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Apps <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-header">OS X
+								</li>
+
+								<li>
+									<a href="cdock">cDock</a>
+								</li>
+
+								<li>
+									<a href="cyose">Classic Folders</a>
+								</li>
+
+								<li>
+									<a href="dboot">Dark Boot</a>
+								</li>
+
+								<li>
+									<a href="vpkosx">vpk Tool</a>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="about">About</a>
+						</li>
+
+						<li>
+							<a href="mailto:aguywithlonghair@gmail.com">Contact</a>
+						</li>
+
+						<li class="active">
+							<a href="#">Donate</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
 		<section class="page-header">
-			<h1 class="project-name"> <a href="http://goo.gl/vF92sf" target="_blank" class="btn">Donate</a></h1>
-		</section>
+			<h1><a class="btn btn btn-success" style="width: 100px;" href="http://goo.gl/vF92sf" target="_blank" role="button">Donate</a></h1>
+	    </section>
 
-		<br>
 			<div class="newspaper" style="text-align:center">
 				4LE Media, L.L.C.<br>
 				Ang Edwin<br>
@@ -138,5 +170,16 @@
 				吳 駿維</p>
 			</div>
 
+			<div class="container">
+				<hr>
+				<div align="center">
+					<footer>
+		        		website by <a href="https://github.com/w0lfschild">w0lfschild</a>.
+		      		</footer>
+    			</div>
+			</div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>

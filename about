@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>W0lfHub - About</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="icons/favicon.ico">
+  
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/header.css" media="screen">
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html">w0lfHub</a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Apps <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">OS X
+                </li>
+
+                <li>
+                  <a href="cdock">cDock</a>
+                </li>
+
+                <li>
+                  <a href="cyose">Classic Folders</a>
+                </li>
+
+                <li>
+                  <a href="dboot">Dark Boot</a>
+                </li>
+
+                <li>
+                  <a href="vpkosx">vpk Tool</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="active">
+              <a href="#">About</a>
+            </li>
+
+            <li>
+              <a href="mailto:aguywithlonghair@gmail.com">Contact</a>
+            </li>
+
+            <li>
+              <a href="donate">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <section class="page-header">
+    <h1 class="project-name">About</h1>
+  </section>
+
+  <div class="container">
+    <!-- <hr> -->
+    <h3>Coding</h3>
+    <ul>
+      <li><a href="https://github.com/w0lfschild">GitHub</a></li>
+      <li><a href="https://sourceforge.net/u/w0lfschild">SourceForge</a></li>
+    </ul>
+
+    <h3>Video</h3>
+    <ul>
+      <li><a href="http://www.youtube.com/w0lfschild">YouTube</a></li>
+    </ul>
+
+    <h3>Gaming</h3>
+    <ul>
+      <li><a href="http://steamcommunity.com/id/w0lfschild">Steam Community</a></li>
+      <li><a href="http://backpack.tf/id/76561198024091855">TF2 Backpack</a></li>
+      <li><a href="http://www.tf2outpost.com/user/45230">TF2 Outpost</a></li>
+    </ul>
+
+    <h3>Social</h3>
+    <ul>
+      <li><a href="https://plus.google.com/115211740611101201956">Google+</a></li>
+      <li><a href="http://www.reddit.com/user/w0lfschild/">Reddit</a></li>
+    </ul>
+
+    <h3>Other</h3>
+    <ul>
+      <li><a href="http://forums.macrumors.com/member.php?u=793111">Mac Rumors</a></li>
+      <li><a href="http://myanimelist.net/animelist/w0lf1">My Anime List</a></li>
+      <li><a href="http://www.wikidot.com/user:info/w0lfschild">Wikidot</a></li>
+    </ul>
+    <hr>
+    <div align="center">
+          <footer>
+                website by <a href="https://github.com/w0lfschild">w0lfschild</a>.
+              </footer>
+          </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+  </script> <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
