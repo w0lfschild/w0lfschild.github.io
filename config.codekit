@@ -844,7 +844,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 379276,
+		"initialSize": 3449,
 		"inputAbbreviatedPath": "\/images\/pic01.jpg",
 		"outputAbbreviatedPath": "\/images\/pic01.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -946,6 +946,17 @@
 		"initialSize": 189428,
 		"inputAbbreviatedPath": "\/images\/pic10.jpg",
 		"outputAbbreviatedPath": "\/images\/pic10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pic11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 379276,
+		"inputAbbreviatedPath": "\/images\/pic11.jpg",
+		"outputAbbreviatedPath": "\/images\/pic11.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
