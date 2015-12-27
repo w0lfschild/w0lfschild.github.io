@@ -4,53 +4,53 @@
 @import 'libs/skel';
 
 /*
-	Identity by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Loader */
 
-	body {
-		background-image:		url('../../images/bg.jpg');
-		background-repeat:		no-repeat;
-		background-size:		cover;
-		background-position:	bottom center;
-		background-attachment:	fixed;
-
-		&:after {
-			display: none;
+	body.landing {
+		&:before, &:after {
+			display: none !important;
 		}
 	}
 
-/* List */
+/* Icon */
 
-	ul {
-		&.icons {
-			li {
-				a {
-					&:before {
-						color: _palette(border);
-					}
+	.icon {
+		&.alt {
+			color: inherit !important;
+		}
 
-					&:hover {
-						&:before {
-							color: _palette(highlight);
-						}
-					}
+		&.major {
+			&.alt {
+				&:before {
+					color: _palette(fg-bold) !important;
 				}
 			}
 		}
 	}
 
-/* Wrapper */
+/* Banner */
 
-	#wrapper {
-		text-align: center;
+	#banner {
+		&:after {
+			background-color: _palette(bg-transparent);
+		}
 	}
 
-/* Main */
+/* Footer */
 
-	#main {
-		display: inline-block;
+	#footer {
+		.icons {
+			.icon {
+				&.alt {
+					&:before {
+						color: _palette(fg-bold) !important;
+					}
+				}
+			}
+		}
 	}
