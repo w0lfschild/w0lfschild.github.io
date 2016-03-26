@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>name</key>
+		<string>Afloat</string>
 		<key>apps</key>
 		<string>System</string>
 		<key>author</key>
@@ -17,8 +19,6 @@
 		<string>/bundles/Afloat_2.3.zip</string>
 		<key>homepage</key>
 		<string>https://github.com/millenomi/afloat</string>
-		<key>name</key>
-		<string>Afloat</string>
 		<key>package</key>
 		<string>net.infinite-labs.Afloat</string>
 		<key>size</key>
@@ -36,6 +36,8 @@
 		<string></string>
 	</dict>
 	<dict>
+		<key>name</key>
+		<string>CustomNC</string>
 		<key>apps</key>
 		<string>Notification Center</string>
 		<key>author</key>
@@ -50,8 +52,6 @@
 		<string>/bundles/CustomNC_1.4.zip</string>
 		<key>homepage</key>
 		<string>https://github.com/inket/CustomNC</string>
-		<key>name</key>
-		<string>CustomNC</string>
 		<key>package</key>
 		<string>me.inket.CustomNC</string>
 		<key>size</key>
@@ -69,6 +69,8 @@
 		<string></string>
 	</dict>
 	<dict>
+		<key>name</key>
+		<string>NotificationClear</string>
 		<key>apps</key>
 		<string>Notification Center</string>
 		<key>author</key>
@@ -83,8 +85,6 @@
 		<string>/bundles/NotificationClear_0.1.0.zip</string>
 		<key>homepage</key>
 		<string></string>
-		<key>name</key>
-		<string>NotificationClear</string>
 		<key>package</key>
 		<string>com.chuckhendo.NotificationClear</string>
 		<key>size</key>
@@ -102,6 +102,8 @@
 		<string></string>
 	</dict>
 	<dict>
+		<key>name</key>
+		<string>PreviewNoSidebar</string>
 		<key>apps</key>
 		<string>Preview</string>
 		<key>author</key>
@@ -116,8 +118,6 @@
 		<string>/bundles/PreviewNoSidebar_1.0.zip</string>
 		<key>homepage</key>
 		<string>https://github.com/elanini/PreviewNoSidebar</string>
-		<key>name</key>
-		<string>PreviewNoSidebar</string>
 		<key>package</key>
 		<string>com.elanini.PreviewNoSidebar</string>
 		<key>size</key>
@@ -135,6 +135,8 @@
 		<string></string>
 	</dict>
 	<dict>
+		<key>name</key>
+		<string>RadonChrome</string>
 		<key>apps</key>
 		<string>Chrome</string>
 		<key>author</key>
@@ -149,8 +151,6 @@
 		<string>/bundles/RadonChrome_1.0.zip</string>
 		<key>homepage</key>
 		<string>https://github.com/mathcolo/RadonChrome</string>
-		<key>name</key>
-		<string>RadonChrome</string>
 		<key>package</key>
 		<string>com.prestonmueller.RadonChrome</string>
 		<key>size</key>
@@ -163,7 +163,7 @@
 			</dict>
 			<dict>
 				<key>BundleIdentifier</key>
-				<string>com.google.Chrome.Cannary</string>
+				<string>com.google.Chrome.canary</string>
 			</dict>
 		</array>
 		<key>version</key>
