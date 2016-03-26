@@ -83,12 +83,15 @@
 		<string>cDock</string>
 		<key>package</key>
 		<string>org.w0lf.cDock</string>
-		<key>targets</key>
-		<array>
-			<string>com.apple.dock</string>
-		</array>
 		<key>version</key>
 		<string>0.11.4</string>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>BundleIdentifier</key>
+				<string>*</string>
+			</dict>
+		</array>
 		<key>webpage</key>
 		<string>https://github.com/moeseth/cydia_website/blob/master/cydia.html</string>
 	</dict>
