@@ -31,7 +31,7 @@
 		<key>version</key>
 		<string>0.5.0</string>
 		<key>webpage</key>
-		<string>https://github.com/moeseth/cydia_website/blob/master/cydia.html</string>
+		<string>http://w0lfschild.github.io/</string>
 	</dict>
 	<dict>
 		<key>apps</key>
@@ -62,7 +62,7 @@
 		<key>version</key>
 		<string>0.1.1</string>
 		<key>webpage</key>
-		<string>https://github.com/moeseth/cydia_website/blob/master/cydia.html</string>
+		<string>http://w0lfschild.github.io/</string>
 	</dict>
 	<dict>
 		<key>apps</key>
@@ -93,7 +93,7 @@
 			</dict>
 		</array>
 		<key>webpage</key>
-		<string>https://github.com/moeseth/cydia_website/blob/master/cydia.html</string>
+		<string>http://w0lfschild.github.io/app_cDock.html</string>
 	</dict>
 </array>
 </plist>
