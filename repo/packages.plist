@@ -76,7 +76,7 @@
 		<key>contact</key>
 		<string>aguywithlonghair@gmail.com</string>
 		<key>description</key>
-		<string>Adds a "Clear All" button to Notification Center</string>
+		<string>Adds a &quot;Clear All&quot; button to Notification Center</string>
 		<key>donate</key>
 		<string>https://www.paypal.me/w0lfspapa</string>
 		<key>filename</key>
@@ -377,7 +377,7 @@
 		<key>contact</key>
 		<string>aguywithlonghair@gmail.com</string>
 		<key>description</key>
-		<string>Bookmark words in Apple's Dictionary application</string>
+		<string>Bookmark words in Apple&apos;s Dictionary application</string>
 		<key>donate</key>
 		<string>https://www.paypal.me/w0lfspapa</string>
 		<key>filename</key>
@@ -564,6 +564,72 @@
 		</array>
 		<key>version</key>
 		<string>9.0.217Yosemite</string>
+		<key>webpage</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>apps</key>
+		<string></string>
+		<key>author</key>
+		<string>Wolfgang Baird</string>
+		<key>contact</key>
+		<string>aguywithlonghair@gmail.com</string>
+		<key>description</key>
+		<string></string>
+		<key>donate</key>
+		<string>https://www.paypal.me/w0lfspapa</string>
+		<key>filename</key>
+		<string>/bundles/MenuBarHider_1.0.zip</string>
+		<key>homepage</key>
+		<string></string>
+		<key>name</key>
+		<string>MenuBarHider</string>
+		<key>package</key>
+		<string>com.yourcompany.MenuBarHider</string>
+		<key>size</key>
+		<string>10978</string>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>BundleIdentifier</key>
+				<string>*</string>
+			</dict>
+		</array>
+		<key>version</key>
+		<string>1.0</string>
+		<key>webpage</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>apps</key>
+		<string></string>
+		<key>author</key>
+		<string>Wolfgang Baird</string>
+		<key>contact</key>
+		<string>aguywithlonghair@gmail.com</string>
+		<key>description</key>
+		<string></string>
+		<key>donate</key>
+		<string>https://www.paypal.me/w0lfspapa</string>
+		<key>filename</key>
+		<string>/bundles/TerminalCopyOnSelect_.zip</string>
+		<key>homepage</key>
+		<string></string>
+		<key>name</key>
+		<string>TerminalCopyOnSelect</string>
+		<key>package</key>
+		<string>com.s21g.TerminalCopyOnSelect</string>
+		<key>size</key>
+		<string>11405</string>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.terminal</string>
+			</dict>
+		</array>
+		<key>version</key>
+		<string></string>
 		<key>webpage</key>
 		<string></string>
 	</dict>
