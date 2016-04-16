@@ -14,43 +14,19 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script> 
+		$(function(){
+		  $("#header").load("header.html"); 
+		  $("#footer").load("footer.html"); 
+		});
+		</script>
 	</head>
 	<body>
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html">w0lfHub</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Applications</a>
-								<ul>
-									<li><a href="app_cDock.html">cDock 2</a></li>
-									<li><a href="app_cYose.html">Classic Folders</a></li>
-									<li><a href="app_dBoot.html">Dark Boot</a></li>
-									<li><a href="app_vTool.html">vpk Tool</a></li>
-									<li>
-										<a href="tweak_wSIMBL.html">SIMBL Plugins</a>
-										<ul>
-											<li><a href="tweak_wSIMBL.html">SIMBL Installer</a></li>
-											<li><a href="#"></a></li>
-											<li><a href="tweak_aFloat.html">aFloat</a></li>
-											<li><a href="#">darkDock</a></li>
-											<li><a href="tweak_fscrER.html">fullscreenER</a></li>
-											<li><a href="tweak_nClear.html">notificationClear</a></li>
-											<li><a href="tweak_rChrom.html">radonChrome</a></li>
-											<li><a href="tweak_sfSoda.html">safariSoda</a></li>
-											<li><a href="tweak_zesWin.html">zestyWin</a></li>										
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="http://goo.gl/DSyEFR" class="button special">Donate</a></li>
-						</ul>
-					</nav>
-				</header>
+			<div id="header"></div>
 
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
@@ -81,19 +57,7 @@
 				</div>
 
 			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+			<div id="footer"></div>
 
 		</div>
 
