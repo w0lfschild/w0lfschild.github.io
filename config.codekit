@@ -1105,17 +1105,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/repo\/icon_.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 699583,
-		"inputAbbreviatedPath": "\/repo\/icon_.png",
-		"outputAbbreviatedPath": "\/repo\/icon_.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/tweak_aFloat.html": {
 		"fileType": 8192,
 		"ignore": 0,
