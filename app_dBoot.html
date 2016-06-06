@@ -44,37 +44,21 @@
 							<section id="content">
 								<div style="display:block; margin:auto;" class="6u  6u$(xsmall)"><span class="image fit"><img src="https://github.com/w0lfschild/DarkBoot/raw/master/example.png" alt="" /></span></div>
 								<br>
-
-								<h3>Information:</h3>
-						        <ul>
-						        	<li>This may break in the future</li>
-						        	<li>This should work on all Macs. Submit a report <a href="https://github.com/w0lfschild/DarkBoot/issues/new">here</a> if it does not</li>
-						        </ul>
 						     
 						        <h3>How to use:</h3>
 						        <ol>
 						          <li><a href="https://github.com/w0lfschild/DarkBoot/releases/latest">Download</a> the latest release</li>
 						          <li>Unzip the download</li>
-						          <li>Open the Dark Boot app</li>
-						          <li>Select the color you would like your boot screen to be and press OK</li>
-						          <li>Enter your admin password and press OK</li>
-						          <li>Reboot twice for changes to take effect</li>
+						          <li>Open <code>Dark Boot.app</code></li>
+						          <li>Select the color you would like your boot screen to be and press apply</li>
+						          <li>Enter your admin password when prompted</li>
+						          <li>Reboot</li>
 						        </ol>
 
-						        <h3>Warning:</h3>
-						        <ul>
-						        	<li>This app modifies the systems boot.efi which has the potential to prevent the system from booting.</li>
-						        	<li>If this happens you can boot into recovery and entering the following command in terminal:</li>
-									<ul><li>
-<pre><code>cd /System/Library/CoreServices
-mv ./boot.efi ./boot.efi.bak
-mv ./boot_stock.efi ./boot.efi
-chmod 644 ./boot.efi
-chown root:wheel ./boot.efi
-chflags uchg ./boot.efi
-reboot</code></pre>
-									</li></ul>
-						        </ul>
+								<h3>Note:</h3>
+						        <ol>
+						        	<li>This should work on all Macs. Submit a report <a href="https://github.com/w0lfschild/DarkBoot/issues/new">here</a> if it does not</li>
+						        </ol>
 						        
 							</section>
 
