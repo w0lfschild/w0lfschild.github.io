@@ -1,13 +1,7 @@
-# cDock2
+# w0lfschild.github.io
 
-cDock is an application designed to make theming your dock easy and robust on OS X versions 10.9 to 10.11.
+:rocket: [w0lfschild](https://github.com/w0lfschild)'s website.
 
-# Installation
+# License
 
-- Download the latest release of cDock
-- Open cDock
-- You may be required to [disable System Integrity Protection](http://osxdaily.com/2015/10/05/disable-rootless-system-integrity-protection-mac-os-x/), cDock will inform you but cannot automate this
-- You may be required to install SIMBL, cDock will do this for you
-- Theme away
-
-![Preview](preview.png)
+[MIT](LICENSE.md) © [Wolfgang Baird](https://github.com/w0lfschild)
