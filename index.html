@@ -14,43 +14,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body class="landing">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html">w0lfHub</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Applications</a>
-								<ul>
-									<li><a href="app_cDock.html">cDock 2</a></li>
-									<li><a href="app_cYose.html">Classic Folders</a></li>
-									<li><a href="app_dBoot.html">Dark Boot</a></li>
-									<li><a href="app_vTool.html">vpk Tool</a></li>
-									<!-- <li>
-										<a href="tweak_wSIMBL.html">SIMBL Plugins</a>
-										<ul>
-											<li><a href="tweak_wSIMBL.html">SIMBL Installer</a></li>
-											<li><a href="#"></a></li>
-											<li><a href="tweak_aFloat.html">aFloat</a></li>
-											<li><a href="tweak_dkDock.html">darkDock</a></li>
-											<li><a href="tweak_fscrER.html">fullscreenER</a></li>
-											<li><a href="tweak_nClear.html">notificationClear</a></li>
-											<li><a href="tweak_rChrom.html">radonChrome</a></li>
-											<li><a href="tweak_sfSoda.html">safariSoda</a></li>
-											<li><a href="tweak_zesWin.html">zestyWin</a></li>										
-										</ul>
-									</li> -->
-								</ul>
-							</li>
-							<li><a href="http://goo.gl/DSyEFR" class="button special">Donate</a></li>
-						</ul>
-					</nav>
-				</header>
+			<div id="header"></div>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -62,7 +32,7 @@
 						</header>
 						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
+					<!-- <a href="#one" class="goto-next scrolly">Next</a> -->
 				</section>
 
 			<!-- One -->
@@ -195,22 +165,13 @@
 				</section> -->
 
 			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://twitter.com/w0lfspapa" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/in/wolfgang-baird-19761584" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.instagram.com/a_w0lf" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/w0lfschild" class="icon fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:aguywithlonghair@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+				<footer id="footer"></footer>
 
 		</div>
 
 		<!-- Scripts -->
+			<script>$("#header").load("header.html");</script>
+			<script>$("#footer").load("footer.html");</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
