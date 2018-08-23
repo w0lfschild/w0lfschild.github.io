@@ -13,8 +13,6 @@ document.write('\
         <!-- Core CSS -->         \
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> \
         <link href="css/font-awesome.min.css" rel="stylesheet">\
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet">\
-        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet">\
         <!-- Style Library -->         \
         <link href="css/style-library-1.css" rel="stylesheet">\
         <link href="css/plugins.css" rel="stylesheet">\

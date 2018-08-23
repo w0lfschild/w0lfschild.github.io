@@ -11,8 +11,6 @@ document.write('\
         <!-- Core CSS -->         \
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> \
         <link href="css/font-awesome.min.css" rel="stylesheet">\
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet">\
-        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet">\
         <!-- Style Library -->         \
         <link href="css/style-library-1.css" rel="stylesheet">\
         <link href="css/plugins.css" rel="stylesheet">\
@@ -27,7 +25,7 @@ document.write('\
     <body data-spy="scroll" data-target="nav">\
         <div class="copyright-bar-2 bg-orange">\
             <div class="container text-center">\
-                <p>© COPYRIGHT 2015 - 2018 w0lfHub - ALL RIGHTS RESERVED.</p>\
+                <p>© COPYRIGHT 2014 - 2018 Wolfgang Baird - ALL RIGHTS RESERVED.</p>\
             </div>\
         </div>\
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>         \
