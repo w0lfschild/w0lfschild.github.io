@@ -5,7 +5,6 @@ document.write('\
 <html lang="en" style="height:100%;">\
     <head> \
         <meta charset="utf-8"> \
-        <title>Pinegrow Bootstrap Blocks</title>\
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> \
         <meta name="keywords" content="pinegrow, blocks, bootstrap" />\
         <meta name="description" content="My new website" />\
@@ -23,7 +22,6 @@ document.write('\
       <script src="js/html5shiv.js"></script>\
       <script src="js/respond.min.js"></script>\
     <![endif]-->         \
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">\
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">\
     </head>     \
     <header id="custom_header">\

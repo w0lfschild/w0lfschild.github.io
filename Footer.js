@@ -3,7 +3,6 @@ document.write('\
 <html lang="en" style="height:100%;">\
     <head> \
         <meta charset="utf-8"> \
-        <title>Pinegrow Bootstrap Blocks</title>\
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> \
         <meta name="keywords" content="pinegrow, blocks, bootstrap" />\
         <meta name="description" content="My new website" />\
@@ -31,7 +30,6 @@ document.write('\
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>         \
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>         \
         <script type="text/javascript" src="js/plugins.js"></script>\
-        <script src="https://maps.google.com/maps/api/js?sensor=true"></script>\
         <script type="text/javascript" src="js/bskit-scripts.js"></script>         \
     </body>     \
 </html>\
