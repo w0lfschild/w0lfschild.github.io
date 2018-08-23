@@ -40,7 +40,7 @@ document.write('\
                             <a href="index.html"><i class="fas fa-home"></i> Home</a>\
                         </li>\
                         <li class="nav-item dropdown">\
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#"><i class="fab fa-app-store-ios"></i> Applications <i class="fa fa-angle-down"></i></a>\
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#"><i class="fab fa-app-store-ios"></i> Applications <i class="fas fa-angle-down"></i></a>\
                             <ul class="dropdown-menu">\
                                 <li>\
                                     <a href="app_cDock.html"><i class="fas fa-paint-brush"></i> cDock</a>\
@@ -64,7 +64,7 @@ document.write('\
                         </li>\
                         <!-- /.dropdown -->\
                         <li class="nav-item dropdown">\
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#"><i class="fas fa-cube"></i> Plugins <i class="fa fa-angle-down"></i></a>\
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#"><i class="fas fa-cube"></i> Plugins <i class="fas fa-angle-down"></i></a>\
                             <ul class="dropdown-menu">\
                                 <li>\
                                     <a href="#">Coming soon...</a>\
