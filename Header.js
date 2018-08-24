@@ -42,25 +42,25 @@ document.write('\
                             <a href="index.html"><i class="fas fa-home"></i> Home</a>\
                         </li>                         \
                         <li class="dropdown"> \
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fab fa-app-store-ios"></i> Applications <i class="fas fa-angle-down"></i></a> \
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-html="false"><i class="fab fa-app-store-ios"></i> Applications <i class="fas fa-angle-down"></i></a> \
                             <ul class="dropdown-menu"> \
                                 <li>\
-                                    <a href="app_cDock.html"><i class="fas fa-paint-brush"></i> cDock</a>\
+                                    <a href="cdock.html"><i class="fas fa-paint-brush"></i> cDock</a>\
                                 </li>\
                                 <li>\
-                                    <a href="app_MacPlus.html"><i class="fas fa-cubes"></i> MacForge</a>\
+                                    <a href="macforge.html"><i class="fas fa-cubes"></i> MacForge</a>\
                                 </li>\
                                 <li>\
-                                    <a href="app_Flashlight.html"><i class="fas fa-lightbulb"></i> Flashlight</a>\
+                                    <a href="flashlight.html"><i class="fas fa-lightbulb"></i> Flashlight</a>\
                                 </li>\
                                 <li>\
-                                    <a href="app_dBoot.html"><i class="fas fa-moon"></i> DarkBoot</a>\
+                                    <a href="darkboot.html"><i class="fas fa-moon"></i> DarkBoot</a>\
                                 </li>\
                                 <li>\
-                                    <a href="app_cYose.html"><i class="far fa-folder"></i> Classic Folders</a>\
+                                    <a href="classicfolders.html"><i class="far fa-folder"></i> Classic Folders</a>\
                                 </li>\
                                 <li>\
-                                    <a href="app_vTool.html"><i class="fas fa-exchange-alt"></i> VPK Converter</a>\
+                                    <a href="vpkmacos.html"><i class="fas fa-exchange-alt"></i> VPK Converter</a>\
                                 </li>                                 \
                             </ul>                             \
                         </li>\
