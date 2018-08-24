@@ -39,28 +39,28 @@ document.write('\
                 <div class="collapse navbar-collapse" id="nav1">\
                     <ul class="nav navbar-nav navbar-right"> \
                         <li>\
-                            <a href="index.html"><i class="fas fa-home"></i> Home</a>\
+                            <a href="index"><i class="fas fa-home"></i> Home</a>\
                         </li>                         \
                         <li class="dropdown"> \
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-html="false"><i class="fab fa-app-store-ios"></i> Applications <i class="fas fa-angle-down"></i></a> \
                             <ul class="dropdown-menu"> \
                                 <li>\
-                                    <a href="cdock.html"><i class="fas fa-paint-brush"></i> cDock</a>\
+                                    <a href="cdock"><i class="fas fa-paint-brush"></i> cDock</a>\
                                 </li>\
                                 <li>\
-                                    <a href="macforge.html"><i class="fas fa-cubes"></i> MacForge</a>\
+                                    <a href="macforge"><i class="fas fa-cubes"></i> MacForge</a>\
                                 </li>\
                                 <li>\
-                                    <a href="flashlight.html"><i class="fas fa-lightbulb"></i> Flashlight</a>\
+                                    <a href="flashlight"><i class="fas fa-lightbulb"></i> Flashlight</a>\
                                 </li>\
                                 <li>\
-                                    <a href="darkboot.html"><i class="fas fa-moon"></i> DarkBoot</a>\
+                                    <a href="darkboot"><i class="fas fa-moon"></i> DarkBoot</a>\
                                 </li>\
                                 <li>\
-                                    <a href="classicfolders.html"><i class="far fa-folder"></i> Classic Folders</a>\
+                                    <a href="classicfolders"><i class="far fa-folder"></i> Classic Folders</a>\
                                 </li>\
                                 <li>\
-                                    <a href="vpkmacos.html"><i class="fas fa-exchange-alt"></i> VPK Converter</a>\
+                                    <a href="vpkmacos"><i class="fas fa-exchange-alt"></i> VPK Converter</a>\
                                 </li>                                 \
                             </ul>                             \
                         </li>\
