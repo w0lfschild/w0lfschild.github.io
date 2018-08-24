@@ -34,12 +34,12 @@ document.write('\
                         <span class="icon-bar"></span> \
                         <span class="icon-bar"></span>\
                     </button>                     \
-                    <a href="#" class="navbar-brand finn"><i class="fas fa-terminal"></i> w0lfHub</a> \
+                    <a href="#" class="navbar-brand finn"><i class="fas fa-terminal"></i> macEnhance</a> \
                 </div>                 \
                 <div class="collapse navbar-collapse" id="nav1">\
                     <ul class="nav navbar-nav navbar-right"> \
                         <li>\
-                            <a href="index"><i class="fas fa-home"></i> Home</a>\
+                            <a href="/"><i class="fas fa-home"></i> Home</a>\
                         </li>                         \
                         <li class="dropdown"> \
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-html="false"><i class="fab fa-app-store-ios"></i> Applications <i class="fas fa-angle-down"></i></a> \
