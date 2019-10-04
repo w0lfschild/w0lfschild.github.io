@@ -1,0 +1,15 @@
+<html>
+<head>
+    <script>
+        function pageLoaded() {
+            var qAt = document.URL.indexOf("?");
+            var params = document.URL.substr(qAt+1);
+            // Use params as needed (parse, or pass along to flash swf):
+            window.location.replace(params);
+            // alert(params);  // just echoing in this example.
+        }
+    </script>
+</head>
+<body onload="pageLoaded()">
+</body>
+</html>
