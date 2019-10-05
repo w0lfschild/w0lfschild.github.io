@@ -4,9 +4,13 @@
         function pageLoaded() {
             var qAt = document.URL.indexOf("?");
             var params = document.URL.substr(qAt+1);
-            // Use params as needed (parse, or pass along to flash swf):
-            var newstr = "https://www.macenhance.com/macforge/" + params;
-            window.location.replace(params);
+            var redirect = "https://www.macenhance.com/macforge/"
+            if (params.length > 0) {
+                if (params.includes("macforge://")) {
+                    redirect = redirect + params;
+                }
+            }
+            window.location.replace(redirect);
             // alert(params);  // just echoing in this example.
             // alert(newstr);
         }
