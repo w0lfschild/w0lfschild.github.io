@@ -5,8 +5,10 @@
             var qAt = document.URL.indexOf("?");
             var params = document.URL.substr(qAt+1);
             // Use params as needed (parse, or pass along to flash swf):
+            var newstr = "https://www.macenhance.com/macforge/" + params;
             window.location.replace(params);
             // alert(params);  // just echoing in this example.
+            // alert(newstr);
         }
     </script>
 </head>

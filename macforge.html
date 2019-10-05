@@ -22,8 +22,24 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+        <script>
+        function pageLoaded() {
+            var qAt = document.URL.indexOf("?");
+            var params = document.URL.substr(qAt+1);
+            if (params.length > 0) {
+                if (params.includes("macforge://")) {
+                    window.location.replace(params);
+                }
+            }
+            // Use params as needed (parse, or pass along to flash swf):
+            // window.location.replace("https://www.macenhance.com/macforge");
+            // window.location.replace(params);
+            // alert(params);  // just echoing in this example.
+        }
+    </script>
     </head>     
-    <body data-spy="scroll" data-target="nav">
+    <body data-spy="scroll" data-target="nav" onload="pageLoaded()">
         <script src="Header.js"></script>
         <section id="content-1-2" class="content-block content-1-2">
             <div class="container">
