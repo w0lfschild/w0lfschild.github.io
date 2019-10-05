@@ -4,10 +4,10 @@
         function pageLoaded() {
             var qAt = document.URL.indexOf("?");
             var params = document.URL.substr(qAt+1);
-            var redirect = "https://www.macenhance.com/macforge/"
+            var redirect = "https://www.macenhance.com/macforge"
             if (params.length > 0) {
                 if (params.includes("macforge://")) {
-                    redirect = redirect + params;
+                    redirect = redirect + "?" +  params;
                 }
             }
             window.location.replace(redirect);
