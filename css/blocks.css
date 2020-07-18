@@ -61,8 +61,8 @@ Version: 1.0
 #header-1 .main-nav .navbar-nav > li a {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 15px;
+	/*text-transform: uppercase;*/
+	font-size: 17px;
 	color: #fff;
 	color: rgba(255, 255, 255, 0.8);
 }
@@ -224,19 +224,19 @@ Version: 1.0
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px){
-  
-	
-  
-  
+
+
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 992px){
-  
-	
-  
-  
+
+
+
+
 }
 
 
@@ -314,7 +314,7 @@ Version: 1.0
 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 15px;
     color: #666;
     background: none;
@@ -426,17 +426,17 @@ Version: 1.0
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*
@@ -602,21 +602,21 @@ Version: 1.0
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-  
-	
-  
+
+
+
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  
-	
-  
+
+
+
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  
-	
-	  
+
+
+
 }
 /*
 Template Name: Bootstrap Starter Kit - Promo Blocks
@@ -656,23 +656,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -721,7 +721,7 @@ Version: 1.0
 	margin-bottom: 18px;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-size: 24px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #ffffff;
 }
 
@@ -732,22 +732,23 @@ Version: 1.0
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -786,23 +787,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -840,7 +841,7 @@ Version: 1.0
 
 .content-1-1 h1
 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 300;
 }
 
@@ -850,25 +851,25 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*	CONTENT BLOCK 1-2
@@ -880,25 +881,25 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*	CONTENT BLOCK 1-3
@@ -948,25 +949,25 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*	CONTENT BLOCK 1-4
@@ -1039,25 +1040,25 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*	CONTENT BLOCK 1-6
@@ -1140,9 +1141,9 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -1162,9 +1163,9 @@ Version: 1.0
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*	CONTENT BLOCK 1-7
@@ -1203,33 +1204,33 @@ Version: 1.0
 /* Extra small devices (phones, less than 768px) */
 
 @media (max-width: 767px){
-	
-	
-	
+
+
+
 }
 
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*	CONTENT BLOCK 1-9
@@ -1252,25 +1253,25 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*
@@ -1305,23 +1306,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1369,23 +1370,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1406,23 +1407,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1455,23 +1456,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1503,23 +1504,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1544,23 +1545,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1607,23 +1608,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1646,7 +1647,7 @@ Version: 1.0
 
 .content-2-8 .image-container .background-image-holder {
 	background: url('../images/gold-iphone.png') no-repeat bottom center;
-	
+
 	height: 100%;
 }
 
@@ -1675,23 +1676,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1786,27 +1787,27 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+
 	.content-2-9 {
 		min-height: 520px;
 	}
-	
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+
 	.content-2-9 {
 		min-height: 260px;
 	}
-	
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1821,7 +1822,7 @@ Version: 1.0
 }
 
 .content-2-10 .border-box h2 {
-	
+
 }
 
 
@@ -1831,23 +1832,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }/*
 Template Name: Bootstrap Starter Kit - Content Blocks 3
 Description: Business Startup & Prototyping HTML Framework
@@ -1891,11 +1892,11 @@ Version: 1.0
 .content-3-1 h1, .content-3-1 h2 {
 	color: #fff;
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .content-3-1 h1 {
-	
+
 }
 
 .content-3-1 h2 {
@@ -1909,25 +1910,25 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+
 	.content-3-1 {
 		min-height: 400px;
 	}
-	
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -1951,11 +1952,11 @@ Version: 1.0
 .content-3-2 h1, .content-3-2 h2 {
 	color: #fff;
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .content-3-2 h1 {
-	
+
 }
 
 .content-3-2 h2 {
@@ -1969,25 +1970,25 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+
 	.content-3-2 {
 		min-height: 400px;
 	}
-	
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2011,11 +2012,11 @@ Version: 1.0
 .content-3-3 h1, .content-3-3 h2 {
 	color: #fff;
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .content-3-3 h1 {
-	
+
 }
 
 .content-3-3 h2 {
@@ -2029,25 +2030,25 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+
 	.content-3-3 {
 		min-height: 400px;
 	}
-	
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2065,23 +2066,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2146,23 +2147,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2227,23 +2228,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2263,23 +2264,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2306,23 +2307,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2349,23 +2350,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2414,30 +2415,30 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+
 	.content-3-10 .image-container {
 		height: 100%;
 	}
-	
+
 	.content-3-10 .content {
 		margin-top: 0px;
 		padding: 80px 15px 80px 80px;
 	}
-	
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2487,30 +2488,30 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+
 	.content-3-11 .image-container {
 		height: 100%;
 	}
-	
+
 	.content-3-11 .content {
 		margin-top: 0px;
 		padding: 80px 80px 80px 15px;
 	}
-	
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }/*
 Template Name: Bootstrap Starter Kit - Gallery 2
 Description: Business Startup & Prototyping HTML Framework
@@ -2573,7 +2574,7 @@ Version: 1.0
 .grid figure figcaption {
 	padding: 2em;
 	color: #fff;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -2605,7 +2606,7 @@ Version: 1.0
 
 .grid figure h2 {
 	word-spacing: -0.15em;
-	
+
 	font-weight: 300;
 }
 
@@ -2694,25 +2695,25 @@ figure.effect-lily:hover p {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
-	
+
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
-	
+
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2909,7 +2910,7 @@ Version: 1.0
 
 .filter li a
 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 700;
     font-size: 14px;
     color: #2c3e50;
@@ -2973,25 +2974,25 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 
@@ -3073,27 +3074,27 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-	
-	
-	
+
+
+
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
-	
-	
-	
+
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 .team-member > img
@@ -3310,7 +3311,7 @@ Version: 1.0
 }
 
 .pricing-table-1 h3 {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	padding: 20px 0;
 	background: #2c3e50;
 	margin: 0;
@@ -3325,7 +3326,7 @@ Version: 1.0
 
 .pricing-table-1 .price-figure {
 	font-size: 24px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	padding-top: 14px;
 }
 
@@ -3409,25 +3410,25 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+
 	.pricing-table-1 .price-block {
 		margin-bottom: 20px;
     }
-	
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 /*
@@ -3470,7 +3471,7 @@ Version: 1.0
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: .15em;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #FFF;
 }
 
@@ -3503,7 +3504,7 @@ Version: 1.0
 
 .pricing-table-2 .price-block .price .period {
 	font-size: 16px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .pricing-table-2 .price-block .features {
@@ -3574,23 +3575,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 /*
@@ -3675,23 +3676,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 /*
@@ -3747,23 +3748,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 /*
@@ -3804,23 +3805,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 /*
@@ -3882,23 +3883,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -3952,23 +3953,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -4008,7 +4009,7 @@ Version: 1.0
 
 .footer-1-3 .footer-text p {
 	color: #ecf0f1;
-	
+
 }
 
 
@@ -4017,23 +4018,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -4069,7 +4070,7 @@ Version: 1.0
 	border: solid 1px rgba(61, 201, 179, 0.5);
 	padding: 20px;
 	color: #fff;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	letter-spacing: 1px;
 }
 
@@ -4089,23 +4090,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
