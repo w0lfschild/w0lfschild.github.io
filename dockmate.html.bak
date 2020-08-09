@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>macEnhance</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+<script type="text/javascript">
+Paddle.Setup({ vendor: 26643 });
+</script>
+</head>
+
+<body>
+    <script type="text/javascript" src="header.js"></script>
+<div class="content">
+    <header style="height: 200px;"></header>
+    <!-- Start: 1 Row 2 Columns -->
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Start: Intro -->
+                    <div class="intro">
+                        <h1><img src="assets/img/DockMate/icon11.png" style="width: 80px;height: 80px;">&nbsp;Dock Mate</h1>
+                        <p style="font-size: 16px;">Window previews and controls for macOS 10.13 and above.</p>
+                        <p style="font-family: 'Source Sans Pro', sans-serif;font-weight: 300;font-size: 14px;">Dock Mate adds mouse over window previews to the Dock. With useful built in window management tools and special views to control Music apps. Simply hover over an icon to see all the apps running windows and control them.<br><br>There
+                            are many ways to configure Dock Mate as you wish. Give it a go and find out!</p><a class="btn btn-secondary" role="button" href="#" style="margin: 20px;width: 150px;"><i class="fas fa-download"></i>&nbsp;Try Free</a><a class="btn btn-success paddle_button"
+                            role="button" href="#!" style="width: 150px;margin: 20px;" data-product="589182" data-init="true" data-theme="none"><i class="fas fa-shopping-cart"></i>&nbsp;Buy</a></div>
+                    <!-- End: Intro -->
+                </div>
+                <div class="col-md-6"><img src="assets/img/DockMate/01.gif" style="max-width: 90%;"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End: 1 Row 2 Columns -->
+    <!-- Start: Features Boxed -->
+    <div class="features-boxed">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Features </h2>
+                <p class="text-center">Dock Mate has all the awesome features below and more...</p>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Features -->
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="far fa-window-restore icon"></i>
+                        <h3 class="name">Window Previews</h3>
+                        <ul style="color: rgb(125,130,133);font-size: 15px;">
+                            <li class="text-left">Show previews of all app windows by mousing over the Dock Icons</li>
+                            <li class="text-left">Show a full view of any window by mousing over it's preview</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fas fa-mouse-pointer icon"></i>
+                        <h3 class="name">Window Management</h3>
+                        <ul style="color: rgb(125,130,133);font-size: 15px;">
+                            <li class="text-left">Easily control windows from their preview</li>
+                            <li class="text-left">Minimize, Maximize, Close, Open new windows simply</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fas fa-music icon"></i>
+                        <h3 class="name">Music Controls</h3>
+                        <ul style="color: rgb(125,130,133);font-size: 15px;">
+                            <li class="text-left">See current playing track&nbsp;info for iTunes, Music, Spotify and Podcasts</li>
+                            <li class="text-left">Simple controls to Play/Pause and Skip</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fas fa-tachometer-alt icon"></i>
+                        <h3 class="name">Fast and Lightweigth</h3>
+                        <ul style="color: rgb(125,130,133);font-size: 15px;">
+                            <li class="text-left">Runs in the background with minimal to no battery impact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fas fa-external-link-alt icon"></i>
+                        <h3 class="name">Extendable (Comming Soon)</h3>
+                        <ul style="color: rgb(125,130,133);font-size: 15px;">
+                            <li class="text-left">Create custom views for apps that allow AppleScript control</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Features -->
+        </div>
+    </div>
+    <!-- End: Features Boxed -->
+    <!-- Start: Bootstrap 4 - Tabs with Arrows --><div class="container py-5">
+<div class="p-5 bg-white rounded shadow mb-5">
+    <!-- Bordered tabs-->
+    <ul id="myTab1" role="tablist" class="nav nav-tabs nav-pills with-arrow flex-column flex-sm-row text-center">
+        <li class="nav-item flex-sm-fill">
+            <a id="contact1-tab" data-toggle="tab" href="#contact1" role="tab" aria-controls="contact1" aria-selected="true" class="nav-link text-uppercase font-weight-bold mr-sm-3 rounded-0 border active">Setup</a>
+        </li>
+        
+        <li class="nav-item flex-sm-fill">
+            <a id="profile1-tab" data-toggle="tab" href="#profile1" role="tab" aria-controls="profile1" aria-selected="false" class="nav-link text-uppercase font-weight-bold mr-sm-0 rounded-0 border">Changelog</a>
+        </li>
+      
+    </ul>
+    <div id="myTab1Content" class="tab-content">
+        
+        <div id="contact1" role="tabpanel" aria-labelledby="contact-tab" class="tab-pane fade px-4 py-5 show active">
+        <ul> 
+            <li>Download the latest release</li>
+            <li>Open the downloaded <code>.zip</code> file and open Dock Mate</li>
+            <li>Allow Dock Mate to move itself to <code>/Applications</code></li>
+            <li>Follow the prompts provided by Dock Mate</li>
+            <hr>
+            <li>Alternatively you can manully enabled the needed permissions for Dock Mate</li>
+            <ul>
+                <li>Open System Preferences</li>
+                <br>
+                <li>Navigate to "Security & Privacy"</li>
+                <li>Click the "Privacy" tab</li>
+                <li>Click the lock in the bottom left corner to make changes</li>
+                <br>
+                <li>Click the "Accessability" item in the sidebar</li>
+                <li>Click the checkbox to enable Dock Mate (to control app windows, close, open, minimize, etc)</li>
+                <br>
+                <li>Click the "Screen Recording" item in the sidebar</li>
+                <li>Click the checkbox to enable Dock Mate screen recording (to capture images of app windows)</li>
+                <br>
+                <li>Click the "Automation" item in the sidebar</li>
+                <li>Click the checkbox items below Dock Mate (to allow advanced controls like controlling music)</li>
+            </ul>
+        </ul>
+      </div>
+        
+      <div id="profile1" role="tabpanel" aria-labelledby="profile-tab" class="tab-pane fade px-4 py-5">
+            <ul class="plain-ul">
+              <hr />
+              <a href="https://github.com/w0lfschild/app_updates/blob/master/DockMate/DockMate_1.0.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i>1.0</a>
+              <li><span class="label label-success" style="">New</span> Initial release</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End: Bootstrap 4 - Tabs with Arrows -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="footer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

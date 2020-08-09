@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>macEnhance</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="header.js"></script>
+<div class="content">
+    <header style="height: 200px;background-color: #eef4f7;"></header>
+    <!-- Start: Pricing Tables -->
+    <section class="pricing-table" style="background-color: #eef4f7;height: 100%;">
+        <div class="container">
+            <div class="pricing-area text-center">
+                <h2 class="text-center">cDock</h2>
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 plan price red wow fadeInDown">
+                        <ul class="list-group">
+                            <li class="list-group-item heading">
+                                <h1>Standard</h1><span class="price">$9.99</span></li>
+                            <li class="list-group-item"><span>License for 2 computers<br></span></li>
+                            <li class="list-group-item"><span>All cDock 4.x updates</span></li>
+                            <li class="list-group-item"><span>24/7 support<br></span></li>
+                            <li class="list-group-item plan-action"><a class="btn btn-success" role="button" href="https://cdock.macenhance.com/#!" style="width: 150px;margin: 20px;"><i class="fas fa-shopping-cart"></i>&nbsp;Buy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 plan price green wow fadeInDown"><img src="assets/img/ribon_one.png">
+                        <ul class="list-group">
+                            <li class="list-group-item heading">
+                                <h1>Lifetime</h1><span class="price"><em><span style="text-decoration: line-through;">$35.99</span></em><br>$24.99<br></span>
+                            </li>
+                            <li class="list-group-item"><span>License for 5 computers</span></li>
+                            <li class="list-group-item"><span>All cDock updates</span></li>
+                            <li class="list-group-item"><span>24/7 support</span></li>
+                            <li class="list-group-item"><span>Save&nbsp;$10.00</span></li>
+                            <li class="list-group-item plan-action"><a class="btn" href="#">Buy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h2 class="text-center">Dock Mate</h2>
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 plan price red wow fadeInDown">
+                        <ul class="list-group">
+                            <li class="list-group-item heading">
+                                <h1>Standard</h1><span class="price"><strong><em><span style="text-decoration: line-through;">$14.99</span></em>
+                                </strong><br><strong>$9.99</strong><br></span>
+                            </li>
+                            <li class="list-group-item"><span>License for 2 computers<br></span></li>
+                            <li class="list-group-item"><span>All Dock Mate updates</span></li>
+                            <li class="list-group-item"><span>24/7 support<br></span></li>
+                            <li class="list-group-item"><span>Save&nbsp;$5.00<br></span></li>
+                            <li class="list-group-item plan-action"><a class="btn" href="#">Buy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 plan price green wow fadeInDown">
+                        <ul class="list-group">
+                            <li class="list-group-item heading">
+                                <h1>Lifetime</h1><span class="price"><strong><em><span style="text-decoration: line-through;">$49.99</span></em>
+                                </strong><br><strong>$29.99</strong><br></span>
+                            </li>
+                            <li class="list-group-item"><span>License for 5 computers</span></li>
+                            <li class="list-group-item"><span>All Dock Mate updates</span></li>
+                            <li class="list-group-item"><span>24/7 support</span></li>
+                            <li class="list-group-item"><span>Save&nbsp;$20.00</span></li>
+                            <li class="list-group-item plan-action"><a class="btn" href="#">Buy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>&nbsp;</h2>
+                <h2>MacForge Plugins</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 plan price red wow fadeInDown">
+                        <ul class="list-group">
+                            <li class="list-group-item heading" style="background-color: rgb(204,67,226);">
+                                <h1 style="font-size: 30px;">colorfulSidebarX </h1><span class="price">$4.99</span></li>
+                            <li class="list-group-item"><span>License for 2 computers</span></li>
+                            <li class="list-group-item"><span>24/7 Support</span></li>
+                            <li class="list-group-item plan-action"><a class="btn" href="#" style="background-color: rgb(204,67,226);">Buy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 plan price red wow fadeInDown">
+                        <ul class="list-group">
+                            <li class="list-group-item heading" style="background-color: rgb(226,162,67);">
+                                <h1>cleanHUD</h1><span class="price">$2.99</span></li>
+                            <li class="list-group-item"><span>License for 2 computers</span></li>
+                            <li class="list-group-item"><span>24/7 Support</span></li>
+                            <li class="list-group-item plan-action"><a class="btn" href="#" style="background-color: rgb(226,162,67);">Buy</a></li>
+                        </ul><img src="assets/img/ribon_one.png"></div>
+                    <div class="col-sm-6 col-md-3 plan price red wow fadeInDown">
+                        <ul class="list-group">
+                            <li class="list-group-item heading">
+                                <h1>moreMenu</h1><span class="price"><strong><em><span style="text-decoration: line-through;">$4.99</span></em>
+                                </strong><br>$3.99<br></span>
+                            </li>
+                            <li class="list-group-item"><span>License for 2 computers</span></li>
+                            <li class="list-group-item"><span>24/7 Support</span></li>
+                            <li class="list-group-item"><span>Save $1.00</span></li>
+                            <li class="list-group-item plan-action"><a class="btn" href="#">Buy</a></li>
+                        </ul><img src="assets/img/ribon_one.png"></div>
+                    <div class="col-sm-6 col-md-3 plan price red wow fadeInDown">
+                        <ul class="list-group">
+                            <li class="list-group-item heading" style="background-color: rgb(226,67,124);">
+                                <h1>whosTyping</h1><span class="price">$2.99</span></li>
+                            <li class="list-group-item"><span>License for 2 computers</span></li>
+                            <li class="list-group-item"><span>24/7 Support</span></li>
+                            <li class="list-group-item plan-action"><a class="btn" href="#" style="background-color: rgb(226,67,124);">Buy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End: Pricing Tables -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="footer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

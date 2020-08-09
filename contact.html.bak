@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>macEnhance</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="header.js"></script>
+<div class="content">
+    <!-- Start: Contact Form Clean -->
+    <div class="contact-clean" style="height: 100%;">
+        <header style="height: 200px;"></header>
+        <form data-bss-recipient="f3f9e441e8c0a239f352318d7b9927db" data-bss-subject="Support Web Email">
+            <h2 class="text-center">Contact us</h2>
+            <!-- Start: Success Example -->
+            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+            <!-- End: Success Example -->
+            <!-- Start: Error Example -->
+            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email">
+                <!-- Start: The Error Message --><small class="form-text text-danger">Please enter a correct email address.</small>
+                <!-- End: The Error Message -->
+            </div>
+            <!-- End: Error Example -->
+            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+        </form>
+    </div>
+    <!-- End: Contact Form Clean -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="footer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
