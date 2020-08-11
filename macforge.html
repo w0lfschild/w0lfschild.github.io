@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>macEnhance</title>
     <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:description" content="The tools you need to enhance your macOS experience">
+    <meta name="description" content="The tools you need to enhance your macOS experience">
     <meta property="og:type" content="website">
+    <meta property="og:title" content="macEnhance">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
@@ -33,7 +36,7 @@
                         <h1><img src="assets/img/MacForge/icon11.png" style="width: 80px;height: 80px;">&nbsp;MacForge</h1>
                         <p style="font-size: 16px;">Downright amazing plugin manager for macOS.<br></p>
                         <p style="font-family: 'Source Sans Pro', sans-serif;font-weight: 300;font-size: 14px;">MacForge lets you discover and manage awesome plugins to enhance your macOS experience. There are dozens of plugins to discover and you can even create your own.<br><br>The selection of plugins offered through MacForge is always
-                            expanding so give it a try and find out what you've been missing!</p><a class="btn btn-success" role="button" href="https://github.com/w0lfschild/app_updates/raw/master/MacForge/MacForge.zip" style="margin: 20px;width: 150px;"><i class="fa fa-download"></i>&nbsp;Download</a>
+                            expanding so give it a try and find out what you've been missing!</p><a class="btn btn-success" role="button" href="https://github.com/w0lfschild/app_updates/raw/master/MacForge1/MacForge.zip" style="margin: 20px;width: 150px;"><i class="fa fa-download"></i>&nbsp;Download</a>
                         <a
                             class="btn btn-secondary" role="button" href="https://github.com/w0lfschild/MacForge" style="width: 150px;margin: 20px;"><i class="fab fa-github"></i>&nbsp;View Source</a>
                     </div>
@@ -87,7 +90,7 @@
                         <h3 class="name">Updates</h3>
                         <ul style="color: rgb(125,130,133);font-size: 15px;">
                             <li class="text-left">Automatically keep bundles updated</li>
-                            <li class="text-left">Get your plugin or app noticed</li>
+                            <li class="text-left">Update all bundles with one click</li>
                         </ul>
                     </div>
                 </div>
@@ -139,7 +142,7 @@
           
         <ul class="plain-ul">
             <hr />
-            <a href="https://github.com/w0lfschild/app_updates/blob/master/MacFogre/master.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> Latest</a> 
+            <a href="https://github.com/w0lfschild/app_updates/blob/master/MacFogre1/MacFogre.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> Latest</a> 
         </ul>
           
 <!--        <li><span class="label label-success" style="">New</span> </li>
@@ -149,7 +152,7 @@
 
         <ul class="plain-ul">
             <hr>
-            <a href="https://github.com/w0lfschild/app_updates/blob/master/MacFogre/MacFogre_0.21.1.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i>0.21.1</a>
+            <a href="https://github.com/w0lfschild/app_updates/blob/master/MacFogre1/MacFogre.1.0.1.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i>1.0.1</a>
             <li><span class="label label-success" style="">New</span> UI design</li>
             <li><span class="label label-success" style="">New</span> MacForge can now host a UI for plugin settings <a href="https://github.com/jslegendre"> @jslegendre</a></li>
             <li><span class="label label-success" style="">New</span> Moved about view and preferences to new window</li>
@@ -173,341 +176,6 @@
             <li><span class="label label-danger" style="">Removed</span>  Navigation bar from discover view</li>
             <li><span class="label label-danger" style="">Removed</span>  Xcode Plugin template</li>
             <li><span class="label label-danger" style="">Removed</span>  Demo Plugin</li>
-        </ul>
-
-        <ul class="plain-ul">
-            <hr>
-            <a href="https://github.com/w0lfschild/app_updates/blob/master/MacFogre/MacFogre_0.8.0.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> 0.8.0</a>
-            <li><span class="label label-success" style="">New</span> Icon</li>
-            <li><span class="label label-success" style="">New</span> Mojave support</li>
-            <li><span class="label label-success" style="">New</span> Dock icon now shows badge for bundle updates</li>
-            <li><span class="label label-success" style="">New</span> Switch from SIMBL to mach_inject</li>
-            <ul>
-                <li>Allows loading on Mojave (macOS 10.14)</li>
-                <li>Doesn't require SIP to be off to install helpers</li>
-                <li>Only requires SIP to be disabled if you want to load into Apple Applications</li>
-                <li>Requires SIP to be off to load into Apple Applications</li>
-                <li>Removed all SIP and System component warnings</li>
-            </ul>
-            <li><span class="label label-success" style="">New</span> SIMBLAgent (Helper) is now MacForgeHelper</li>
-            <ul>
-                <li>Helper is now in charge of injection</li>
-                <li>Helper automatically tries to load new bundles when main app is closed</li>
-                <li>Helper checks for bundle updates in background</li>
-                <li>Helper can automatically keep bundles up to date</li>
-                <li>plugins won't automatically load if this isn't open</li>
-                <li>can be run via command line</li>
-                <li>Menubar application</li>
-            </ul>
-            <br>
-            <li><span class="label label-warning" style="">Fixed</span> Some array out of bounds issues</li>
-            <li><span class="label label-warning" style="">Fixed</span> Issues caused if plugin was in two locations</li>
-            <li><span class="label label-warning" style="">Fixed</span> Launch at login bugs</li>
-            <li><span class="label label-warning" style="">Fixed</span> Lag fetching bundle icons on Mojave</li>
-            <br>
-            <li><span class="label label-primary" style="">Improved</span> Faster startup</li>
-            <li><span class="label label-primary" style="">Improved</span> General bug fixes</li>
-            <li><span class="label label-primary" style="">Improved</span> UI design</li> 
-            <ul class="ul2">
-                <li class="li1">Redesigned to closely resemble App Store for easy navigation</li>
-                <li class="li1">Larger sidebar buttons</li>
-                <li class="li1">Window is now resize-able</li>
-                <li class="li1">Dark mode support</li>
-                <li class="li1">Switch from colored circles to check boxes for toggles</li>
-                <li class="li1">Implemented search (bundle Name or ID)</li>
-                <li class="li1">Removed SIMBL info</li>
-                <li class="li1">Revised Blacklist view</li>
-                <li class="li1">Added button to quickly start building a plugin in Xcode</li>
-            </ul>
-        </ul>
-
-        <hr>
-
-        <p class="p2"><br></p>
-        <p class="p1">0.7.1</p>
-        <ul class="plain-ul">
-            <li class="li1">Fix plugins not downloading from changes tab</li>
-            <li class="li1">Updates to System Info tab</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.7.0</p>
-        <ul class="plain-ul">
-            <li class="li1">Redesigned sidebar</li>
-            <ul class="ul2">
-                <li class="li1">Smaller buttons</li>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <ul class="ul2">
-                <li class="li1">Icons for each button</li>
-                <li class="li1">Buttons with views are moved to top</li>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">Redesigned Manage view</li>
-            <ul class="ul2">
-                <li class="li1">Manage view is now searchable</li>
-                <li class="li1">Reveal in Finder is now an eye icon</li>
-                <li class="li1">Trash now trashes in one click</li>
-                <li class="li1">Toggle between single and all users with person icon</li>
-                <li class="li1">Toggle between enabled and disabled with green/red circle icon</li>
-                <li class="li1">Add or Remove source view is now a child of main window</li>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">Redesigned Discover view&nbsp;</li>
-            <ul class="ul2">
-                <li class="li1">Discover view now has subview&nbsp; "Sources" view and "All Plugins" view</li>
-                <li class="li1">All Plugins is a combined list of all plugins from all repos</li>
-                <li class="li1">All Plugins is searchable</li>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">Bundle pages improved</li>
-            <ul class="ul2">
-                <li class="li1">Fix some title sizing issues</li>
-                <li class="li1">Extended description box to fill length of view</li>
-                <li class="li1">Fix Donate and Contact buttons being switched</li>
-                <li class="li1">Fix buttons getting stuck in on or off state</li>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">Redesigned SIMBL tab&nbsp;</li>
-        </ul>
-        <ul class="plain-ul">
-            <ul class="ul2">
-                <li class="li1">Renamed tab to System Info</li>
-                <li class="li1">Removed allow load in Xcode/Safari</li>
-                <li class="li1">Now has Apple Mobile File Integrity status</li>
-                <li class="li1">Now has toggle for Apple Mobile File Integrity</li>
-                <li class="li1">Both 'Apple Mobile File Integrity' and 'System Integrity Protection' must be disabled to allow loading into some apps like:</li>
-                <ul class="ul2">
-                    <li class="li1">iTunes</li>
-                    <li class="li1">Xcode</li>
-                    <li class="li1">Safari</li>
-                </ul>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">Better icon loading for plugins</li>
-            <ul class="ul2">
-                <li class="li1">Icons will use plugin image instead of Stock app icon if target app has no icon</li>
-                <li class="li1">More custom icons for stock apps without icons</li>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">Window now stays vibrant in background</li>
-            <li class="li1">Updating disabled plugins now properly updates the disabled plugin instead of installing the update in /Library/Application Support/SIMBL/Plugins/</li>
-            <li class="li1">Updated mySIMBLFramework</li>
-            <li class="li1">Added mySIMBL to default SIMBLBlacklist (for safety)</li>
-            <li class="li1">Code clean</li>
-            <li class="li1">UI Adjustments</li>
-            <li class="li1">Bug fixes</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.5.3</p>
-        <ul class="plain-ul">
-            <li class="li1">Fixed issues with Xcode and Safari Tech Preview toggles</li>
-            <li class="li1">UI Adjustments</li>
-            <li class="li1">Bug fixes</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.5.1</p>
-        <ul class="plain-ul">
-            <li class="li1">Improved inject into all applications method</li>
-            <li class="li1">Improved locating of applications for SIMBL Blacklist</li>
-            <li class="li1">Improved launch time</li>
-            <li class="li1">Fix SIMBLAgent update/install failing when SIP is enabled</li>
-            <li class="li1">Fix System Integrity Protection status now displays properly</li>
-            <li class="li1">New default repo</li>
-            <li class="li1">New toggles allowing injection into Xcode and Safari Tech Preview</li>
-            <li class="li1">New button to uninstall SIMBL</li>
-            <li class="li1">DevMate integration</li>
-            <li class="li1">Bug fixes
-                <span class="Apple-tab-span"> </span>
-            </li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.4.3</p>
-        <ul class="plain-ul">
-            <li class="li1">Fixes 10.9 not setting up window</li>
-            <li class="li1">Fixes SIMBLAgent not automatically loading plugins</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.4.2</p>
-        <ul class="plain-ul">
-            <li class="li1">Fixes mySIMBLAgent crash</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.4.1</p>
-        <ul class="plain-ul">
-            <li class="li1">New&nbsp; Updates tab</li>
-            <ul class="ul2">
-                <li class="li1">Update all plugins</li>
-                <li class="li1">Update individual plugins</li>
-                <li class="li1">New repo packages.plist format</li>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">New SIMBL tab</li>
-            <ul class="ul2">
-                <li class="li1">Show SIMBL status</li>
-                <li class="li1">Show SIMBLAgent status</li>
-                <li class="li1">Show System Integrity Protection status</li>
-                <li class="li1">SIMBL Blacklist</li>
-                <li class="li1">SIMBL Logging options have moved here</li>
-                <li class="li1">Load into all applications has moved here</li>
-            </ul>
-            <li class="li1">Sources tab</li>
-            <ul class="ul2">
-                <li class="li1">Show checkmark for downloaded plugins (enabled and disabled)</li>
-                <li class="li1">Improved bundle page information</li>
-            </ul>
-            <li class="li1">Sparkle 1.15.1</li>
-            <li class="li1">PFMoveApplication updated</li>
-            <li class="li1">UI Changes</li>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">Improve system app injection time</li>
-            <li class="li1">Improve injection method</li>
-            <li class="li1">Improve login item method</li>
-            <li class="li1">Fix bundle info not updating if a new version was installed</li>
-            <li class="li1">Fix window stuck floating after SIMBL update message</li>
-            <li class="li1">Fix SIMBL update window not showing the parent app</li>
-            <li class="li1">Fix warning logging</li>
-            <li class="li1">Miscellaneous bug fixes</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.3.1</p>
-        <ul class="plain-ul">
-            <li class="li1">Fix SIMBLAgent crashing on 10.11 and below</li>
-            <li class="li1">Fix sources view navigation not working properly on 10.9</li>
-            <li class="li1">Fix missing sdef file in osax</li>
-            <li class="li1">Bug fixes</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.3.0</p>
-        <ul class="plain-ul">
-            <li class="li1">macOS 10.12 support</li>
-            <li class="li1">SIMBL Agent updated</li>
-            <ul class="ul2">
-                <li class="li1">SIMBL Agent moved to /Library/Application Support/SIMBL</li>
-                <li class="li1">Injects into root applications (Dock, Finder, Spotlight, etc)</li>
-                <li class="li1">Injects into apps that loaded before itself</li>
-            </ul>
-            <li class="li1">Warning dialog for SIMBL updates</li>
-            <li class="li1">Warning dialog for System Integrity Protection</li>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">SIMBL updates handled by main app instead of helper</li>
-            <li class="li1">UI Changes</li>
-            <li class="li1">Removed WAYAppStoreWindow</li>
-            <li class="li1">Fixed not being able to toggle plugin if folder didn't exist</li>
-            <li class="li1">Fix admin script not running on 10.12</li>
-            <li class="li1">Bug fixes</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.2.6</p>
-        <ul class="plain-ul">
-            <li class="li1">New Icon</li>
-            <li class="li1">Much faster directory updates</li>
-            <li class="li1">Scan for Parasite bundles</li>
-            <li class="li1">Better version checking bundle updates</li>
-            <li class="li1">Altered tabs</li>
-            <li class="li1">Code sign fix</li>
-            <li class="li1">Bug fixes</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.2.5</p>
-        <ul class="plain-ul">
-            <li class="li1"></li>
-            <li class="li1">New Icon</li>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">Better repo refreshing</li>
-            <li class="li1">UI Adjustments</li>
-            <li class="li1">Updated PFMoveApplication</li>
-            <li class="li1">Updated INAppStoreWindow</li>
-            <li class="li1">Updated Sparkle</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.2.1</p>
-        <ul class="plain-ul">
-            <li class="li1">Add / Remove sources</li>
-            <li class="li1">Better plugin pages</li>
-            <li class="li1">Repo sorted by package name</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.2.0</p>
-        <ul class="plain-ul">
-            <li class="li1">Sources view implemented&nbsp;</li>
-            <ul class="ul2">
-                <li class="li1">One repo included</li>
-                <li class="li1">Basic repo implementation</li>
-                <li class="li1">Structure</li>
-                <ul class="ul2">
-                    <li class="li1">Source View (Root)</li>
-                    <ul class="ul2">
-                        <li class="li1">Source Bundles</li>
-                        <ul class="ul2">
-                            <li class="li1">Bundle Page</li>
-                        </ul>
-                    </ul>
-                </ul>
-            </ul>
-        </ul>
-        <ul class="plain-ul">
-            <li class="li1">UI adjustments</li>
-            <li class="li1">Code refactoring</li>
-            <li class="li1">Startup tab preference</li>
-            <li class="li1">Bundles use icon of first application in SIMBLTargetApplications
-                <span class="s1"> </span>
-                <span class="s2">if no icon provided</span>
-            </li>
-            <li class="li1">View source button in about page</li>
-            <li class="li1">Cells selectable in tables</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.1.6</p>
-        <ul class="plain-ul">
-            <li class="li1">UI adjustments</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.1.5</p>
-        <ul class="plain-ul">
-            <li class="li1">UI adjustments</li>
-            <li class="li1">Changed fonts</li>
-            <li class="li1">Almost all preferences working</li>
-            <li class="li1">Updated about page</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.1.4</p>
-        <ul class="plain-ul">
-            <li class="li1">UI adjustments</li>
-            <li class="li1">Inject into apps button</li>
-            <li class="li1">Preferences mostly complete</li>
-            <li class="li1">Delete bundle requires two clicks</li>
-        </ul>
-        <p class="p2"><br></p>
-        <p class="p1">0.1.3</p>
-        <ul> 
-            <li></li>                             
-            <li></li>                             
-            <li>UI Adjustments</li>
-            <li>Automatic updates via sparkle</li>
-            <li>Delete bundle (Trash can)</li>                             
-        </ul>
-        <p class="p4"><br></p>
-        <p class="p1">0.1.2</p>
-        <ul> 
-            <li>Helper agent</li>                             
-            <li>
-                <ul>
-                    <li>System Integrity Protection warning</li>                                     
-                    <li>Inject into system apps</li>
-                    <li>Offers to move self to <code>/Applications</code></li>                                     
-                </ul>
-            </li>
         </ul>
       </div>
         
