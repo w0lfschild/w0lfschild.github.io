@@ -33,7 +33,7 @@ document.write('\
                         <!-- Start: HoverDownButton --><div class="dropdown">\
   <button class="dropbtn"><i class="fas fa-store"></i> Apps <i class="fas fa-angle-down"></i></button>\
   <div class="dropdown-content">\
-    <a href="https://cdock.macenhance.com"><img src="assets/img/cDock/icon11.png" style="width: 32px;height: 32px;" /> cDock</a>\
+    <a href="https://www.macenhance.com/cdock"><img src="assets/img/cDock/icon11.png" style="width: 32px;height: 32px;" /> cDock</a>\
     <a href="https://www.macenhance.com/dockmate"><img src="assets/img/DockMate/icon11.png" style="width: 32px;height: 32px;" /> Dock Mate</a>\
     <a href="https://www.macenhance.com/macforge"><img src="assets/img/MacForge/icon11.png" style="width: 32px;height: 32px;" /> MacForge</a>\
     <a href="https://www.todeska.app"><img src="assets/img/Todeska/icon1024.png" style="width: 32px;height: 32px;" /> Todeska</a>\
