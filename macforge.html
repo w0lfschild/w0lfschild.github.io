@@ -211,25 +211,26 @@
             }(this));
 
             if (!jscd.mobile && jscd.os.includes("Mac")) {
-                function pageLoaded() {
+                // function pageLoaded() {
                     var qAt = document.URL.indexOf("?");
                     var params = document.URL.substr(qAt+1);
                     if (params.length > 0) {
+                        // alert(
+                        //     'Redirect: ' + params + '\n' +
+                        //     'OS: ' + jscd.os +' '+ jscd.osVersion + '\n' +
+                        //     'Browser: ' + jscd.browser +' '+ jscd.browserMajorVersion +
+                        //       ' (' + jscd.browserVersion + ')\n' + 
+                        //     'Mobile: ' + jscd.mobile + '\n' +
+                        //     'Flash: ' + jscd.flashVersion + '\n' +
+                        //     'Cookies: ' + jscd.cookies + '\n' +
+                        //     'Screen Size: ' + jscd.screen + '\n\n' +
+                        //     'Full User Agent: ' + navigator.userAgent
+                        // );
                         if (params.includes("macforge://")) {
                             window.location.replace(params);
                         }
-                    }
-                }
-                //  alert(
-                //     'OS: ' + jscd.os +' '+ jscd.osVersion + '\n' +
-                //     'Browser: ' + jscd.browser +' '+ jscd.browserMajorVersion +
-                //       ' (' + jscd.browserVersion + ')\n' + 
-                //     'Mobile: ' + jscd.mobile + '\n' +
-                //     'Flash: ' + jscd.flashVersion + '\n' +
-                //     'Cookies: ' + jscd.cookies + '\n' +
-                //     'Screen Size: ' + jscd.screen + '\n\n' +
-                //     'Full User Agent: ' + navigator.userAgent
-                // );
+                    } 
+                // }
             }
             
     </script>
