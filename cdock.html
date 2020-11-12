@@ -221,7 +221,7 @@ Paddle.Setup({ vendor: 26643 });
                 <br>
                 <li><a href="https://github.com/w0lfschild/app_updates/blob/master/cDock3/cDock.3.0.7.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> Versions 3.0.7</a> and above require System Integrity Protection remain off in order to function</li>
                 <li><a href="https://github.com/w0lfschild/app_updates/blob/master/cDock3/cDock.3.1.2.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> Versions 3.1.2</a> and above <code>require macOS 10.14</code> or greater</li>
-                <li><a href="https://github.com/w0lfschild/app_updates/blob/master/cDock4/cDock.4.1.0.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> Versions 4.1.0</a> and above is required for <code>macOS 11.0</code> or greater</li>        
+                <li><a href="https://github.com/w0lfschild/app_updates/blob/master/cDock4/cDock.4.4.3.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> Versions 4.4.3</a> and above is required for <code>macOS 11.0</code> or greater</li>        
             </ul>
             <hr>
             <ul>
@@ -239,14 +239,48 @@ Paddle.Setup({ vendor: 26643 });
                 <a href="https://github.com/w0lfschild/app_updates/blob/master/cDock4/cDock.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> Latest</a>   
             </ul>
             
-            <!-- 4.0.1 -->
+            <!-- 4.4.3 -->
+            <ul class="plain-ul">
+                <hr />
+                <a href="https://github.com/w0lfschild/app_updates/blob/master/cDock4/cDock.4.4.3.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> 4.4.3</a>
+                <ul class="plain-ul">
+                    <li><span class="label label-success" style="">New</span> Improved support for macOS Big Sur </li>
+                    <li><span class="label label-success" style="">New</span> option to set custom images for tiles (supports gifs)</li>
+                    <li><span class="label label-success" style="">New</span> option to adjust indicator offset</li>
+                    <li><span class="label label-primary" style="">Improved</span> Tile coloring is now a filter on the tile layer instead of coloring the tile image</li>
+                    <li><span class="label label-primary" style="">Improved</span> Custom background for left edge flips 180° when dock is set to right edge</li>
+                    <li><span class="label label-primary" style="">Improved</span> Minimized window dimming</li>
+                    <li><span class="label label-warning" style="">Fixed</span> App not auto-restarting dock when a new bundle was installed</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Bug with injection causing crash on right click</li>
+                    <li><span class="label label-warning" style="">Fixed</span> "Click app Tiles to toggle hiding" on macOS 10.15 and below</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Continuity background hiding</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Crash when refreshing layers if a cached tile was missing</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Crash related to hiding running apps</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Crash related to fetching dock tile references</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Crash with continuity tile if reflections were disabled</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Crash if 3D dock enabled and no recent item separator existed</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Custom indicators being located higher than previous versions</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Hidden apps sometimes leaving a straggler indicator</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Indicator layer drawing above tiles</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Issue where tile labels would sometimes show when disabled</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Items added to hidden icon list not applying until dock restart</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Lag when blur reflections were enabled with mouse over magnification</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Licensing issues</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Memory leak with blurred icon reflections</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Memory leak with fetching dock tile references</li>                    
+                    <li><span class="label label-warning" style="">Fixed</span> Preferences window tool-bar not displaying in some cases</li>                                        
+                    <li><span class="label label-warning" style="">Fixed</span> Recent item separator layer modification</li>
+                    <li><span class="label label-warning" style="">Fixed</span> Small memory leak with custom icon coloring</li>
+                </ul>                                                                                                                     
+            </ul>
+
+            <!-- 4.1.0 -->
             <ul class="plain-ul">
                 <hr />
                 <a href="https://github.com/w0lfschild/app_updates/blob/master/cDock4/cDock.4.1.0.zip" class="btn btn-default btn-sm"><i class="fas fa-download"></i> 4.1.0</a>
                 <ul class="plain-ul">
-                    <li><span class="label label-success" style="">New</span> Support for macOS Big Sur </li>
+                    <li><span class="label label-success" style="">New</span> Initial support for macOS Big Sur </li>
                     <li><span class="label label-success" style="">New</span> GUI Redesign</li>
-                    <li><span class="label label-success" style="">New</span> Button to disable/enable theming</li>
                     <li><span class="label label-success" style="">New</span> Option to apply a color filter to all icons</li>
                     <li><span class="label label-success" style="">New</span> Option to blur icon reflections</li>
                     <li><span class="label label-success" style="">New</span> Option to bounce icons on mouseover</li>
@@ -258,7 +292,7 @@ Paddle.Setup({ vendor: 26643 });
                     <li><span class="label label-success" style="">New</span> Option to click icons to toggle hiding <a href="https://github.com/w0lfschild/cDock2/issues/121">121</a></li>
                     <li><span class="label label-success" style="">New</span> Option to toggle showing recent applications</li>
                     <li><span class="label label-success" style="">New</span> macOS Big Sur style Dock for older macOS versions</li>
-                    <li><span class="label label-success" style="">Improved</span> Separated some options from theme settings</li>
+                    <li><span class="label label-primary" style="">Improved</span> Separated some options from theme settings</li>
                     <li><span class="label label-primary" style="">Improved</span> Allows partial enable of SIP</li>
                     <li><span class="label label-primary" style="">Improved</span> Injection helper</li>
                     <li><span class="label label-warning" style="">Fixed</span> Dock crash loop on macOS 10.13 and lower</li>
