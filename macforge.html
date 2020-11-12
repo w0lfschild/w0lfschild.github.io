@@ -221,19 +221,19 @@
                 if (params.length > 0) {
                     if (!params.includes("macforge://"))
                         params = 'macforge://' + params
-                    alert(
-                        'Question: ' + qAt + '\n' +
-                        'Origin: ' + origin + '\n' +
-                        'Redirect: ' + params + '\n' +
-                        'OS: ' + jscd.os +' '+ jscd.osVersion + '\n' +
-                        'Browser: ' + jscd.browser +' '+ jscd.browserMajorVersion +
-                          ' (' + jscd.browserVersion + ')\n' + 
-                        'Mobile: ' + jscd.mobile + '\n' +
-                        'Flash: ' + jscd.flashVersion + '\n' +
-                        'Cookies: ' + jscd.cookies + '\n' +
-                        'Screen Size: ' + jscd.screen + '\n\n' +
-                        'Full User Agent: ' + navigator.userAgent
-                    );
+                    // alert(
+                    //     'Question: ' + qAt + '\n' +
+                    //     'Origin: ' + origin + '\n' +
+                    //     'Redirect: ' + params + '\n' +
+                    //     'OS: ' + jscd.os +' '+ jscd.osVersion + '\n' +
+                    //     'Browser: ' + jscd.browser +' '+ jscd.browserMajorVersion +
+                    //       ' (' + jscd.browserVersion + ')\n' + 
+                    //     'Mobile: ' + jscd.mobile + '\n' +
+                    //     'Flash: ' + jscd.flashVersion + '\n' +
+                    //     'Cookies: ' + jscd.cookies + '\n' +
+                    //     'Screen Size: ' + jscd.screen + '\n\n' +
+                    //     'Full User Agent: ' + navigator.userAgent
+                    // );
                     window.location.replace(params);
                     window.location.replace(origin);
                     // window.open(params);
