@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.small-product:hover {
+  border: 1px solid gray;
+  border-radius: 20px;
+  min-width: 90%;
+  max-width: 50%;
+  margin-left: 5%;
+  /*border-top: 5px;*/
+  box-shadow: initial;
+}
+
+.small-product {
+  border: 1px solid rgba(136,136,136,0.31);
+  border-radius: 20px;
+  min-width: 90%;
+  max-width: 50%;
+  margin-left: 5%;
+  /*border-top: 5px;*/
+}
+

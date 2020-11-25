@@ -1,6 +1,4 @@
-RewriteEngine On
-
-Redirect /app_cdocks.html https://macenhance.com/cdock
+# Seems like this doesn't work on GitHub pages :(
 
 #example.com/page will display the contents of example.com/page.html
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -11,8 +9,3 @@ RewriteRule ^(.+)$ $1.html [L,QSA]
 #301 from example.com/page.html to example.com/page
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 RewriteRule ^(.*)\.html$ /$1 [L,R=301]
-
-# -- OLD RULES --
-# RewriteEngine On
-# RewriteCond %{REQUEST_FILENAME} !-f
-# RewriteRule ^([^\.]+)$ $1.html [NC,L]
