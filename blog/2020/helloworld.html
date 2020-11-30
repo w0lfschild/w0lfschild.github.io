@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>macEnhance</title>
+    <title>Blog - macEnhance</title>
     <meta name="description" content="The tools you need to enhance your macOS experience.">
     <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
@@ -80,64 +80,26 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="intro">
-                                        <h1 class="text-center">MacEnhance and System Integrity Protection</h1>
-                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">nov 23rd, 2020</span></p><img class="img-fluid" src="../../assets/img/blog/elcapitan-system-integration-protection-hero.jpg"></div>
+                                        <h1 class="text-center">Hello World</h1>
+                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">Nov 23rd, 2020</span></p>
+                                    </div>
+                                    <h2>Welcome to the blog!</h2>
                                     <div class="text">
-                                        <h2>What is System Integrity Protection?<br></h2>
-                                        <p>System Integrity Protection&nbsp;is a security technology in OS X El Capitan and later that's designed to help prevent potentially malicious software from modifying protected files and folders on your Mac. System
-                                            Integrity Protection restricts the&nbsp;<a href="https://support.apple.com/kb/HT204012">root user account</a>&nbsp;and limits the actions that the root user can perform on protected parts of the Mac operating
-                                            system.<br><br>Before System Integrity Protection, the root user&nbsp;had no permission restrictions,&nbsp;so it could access any system folder or app on your Mac. Software obtained root-level access when you
-                                            entered your administrator name and password to install&nbsp;the software. That allowed the software to modify or overwrite any system file or app.<br><br>System Integrity Protection includes protection for
-                                            these parts of the system:<br></p>
-                                        <ul>
-                                            <li>/System<br></li>
-                                            <li>/usr<br></li>
-                                            <li>/bin<br></li>
-                                            <li>/sbin</li>
-                                            <li>/var</li>
-                                            <li>Apps that are pre-installed with macOS<br></li>
-                                        </ul>
-                                        <p>Paths and apps that third-party apps and installers can continue to write to include:<br></p>
-                                        <ul>
-                                            <li>/Applications<br></li>
-                                            <li>/Library<br></li>
-                                            <li>/usr<br></li>
-                                            <li>/local</li>
-                                        </ul>
-                                        <p>System Integrity Protection is designed to allow modification of these protected parts only by&nbsp;processes that are signed by Apple and have special entitlements to write to system files, such as Apple software
-                                            updates and Apple installers. Apps that you download from the Mac App Store already work with System Integrity Protection. Other third-party software, if it conflicts with System Integrity Protection, might
-                                            be set aside when you upgrade to OS X El Capitan or later.<br><br>System Integrity Protection also helps prevent software from&nbsp;selecting a startup disk. To&nbsp;select a startup disk, choose System Preferences
-                                            from the Apple menu, then click Startup Disk. Or hold down the Option key while you restart, then choose from the list of startup disks.<br></p>
-                                        <h2><strong>&nbsp;System Integrity Protection and MacEnhance</strong><br></h2>
-                                        <p>Some MacEnhance applications cannot fully function, on a normally configured machine due to System Integrity Protection (SIP). This article can help you configure your machine to allow those apps to finish installation
-                                            by modifying security setting.<br></p>
-                                        <p>MacEnhance apps that require SIP to be disabled work by altering pre-existing code. In order to change some features of other apps, we use a technique called code injection. This means we add some additional code
-                                            to an app whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of macOS on the disk.</p>
-                                        <p>If you decide to modify the settings, you will be able to install all MacEnhance apps. Just to be clear… Your machine may be less secure when you disable extra security features. It is entirely your decision to
-                                            modify the settings.</p>
-                                        <h2>Library Validation<br></h2>
-                                        <p>Library Validation is closely related to SIP. Library Validation is an OS feature introduced by Apple starting from macOS 10.10 and iOS 8 and is a policy governing the loading of dynamic link libraries into the
-                                            process space of applications. This is a feature that any application can enable while<br>developing their software.<br><br>If an app has library-validation enabled (which is default enabled in new Xcode projects)
-                                            the app will not accept code injected by MacEnhance apps, even with SIP disabled.<br><br>You can disable Library Validation using this command in Terminal.app:<br><br><code>sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true</code><br><br>To
-                                            re-enable&nbsp;Library Validation run the same command but replace <code>true</code>&nbsp;with <code>false</code>.<br><br>A reboot is required for changes to take effect.</p>
-                                        <h2>What is new in macOS 11.0 (Big Sur)?<br></h2>
-                                        <p>As of 11.0.1 the command to partial disable SIP is broken<br><code>csrutil enable --without fs --without debug</code>&nbsp;<br>The critical <code>--without debug</code>&nbsp;parameter is not functioning for unknown
-                                            reasons.<br><br>For now simply fully disable SIP with the command <code>csrutil disable</code><br></p>
-                                        <h2>How to turn off System Integrity Protection<br></h2>
-                                        <p>Any MacEnhance app that requires special privileges will guide you through the process via notification dialogs. This document explains SIP-specific steps.<br><br>You must boot into the Recovery OS. You do this
-                                            by restarting your machine, and holding <code>Command+R</code>&nbsp;until the Apple logo appears. Then select Terminal from the Utilities menu. It looks like this:<br></p>
-                                        <figure><img class="figure-img" src="../../assets/img/blog/bdee89c2_shared_img_recovery-utilities-terminal.png">
-                                            <figcaption>opening terminal in recovery partition</figcaption>
-                                        </figure>
-                                        <p>In the window that opens, type&nbsp;<code>csrutil disable</code>&nbsp;and press return. This turns off System Integrity Protection so that some MacEnhance apps can be installed.<br></p>
-                                        <figure><img class="figure-img" src="../../assets/img/blog/b40de138_images_csrutil-disable.jpg">
-                                            <figcaption>disabling System Integrity Protection</figcaption>
-                                        </figure>
-                                        <p>Finally reboot your machine and enjoy the full features of all MacEnhance applications.<br></p>
-                                        <h2>Uninstallation<br></h2>
-                                        <p>To remove a MacEnhance app from your system, you can usually just trash it and reboot. <br><br>If you're still runing into problems with the custom code still loading you can remove specific plugins from <code>/Library/Application Support/MacEnhance/Plugins</code><br></p>
-                                        <h2>Restoring SIP<br></h2>
-                                        <p>If you want to get your system back to default simply open Terminal and run the command<br><code>sudo csrutil clear; reboot</code></p>
+                                        <p>This right here is our first blog post. Which coincides with our site redesign and the welcoming of a new developer to the team.<br></p>
+                                        <p>Today we're welcoming JSLengendre aboard the macEnhance team.<br></p>
+                                        <h2>What's in the pipeline?</h2>
+                                        <p>Right now we're hard at work on several new apps as well as improving upon the apps you already know and love.<br></p>
+                                        <p>IconChamp:<br><br>Our main focus is getting IconChamp ready to ship. IconChamp will be the first and only app to allow theming system icons on Apples new Big Sur operating system! It also wont require users to disable
+                                            System Integrity Protection unlike some of our other apps. on top of that, it plans to make the process of theming icons simple and clean, automagically keeping icons themed after system or app updates without
+                                            any user interaction.<br></p>
+                                        <p>MacForge:<br><br>A new update for Big Sur should be ready shortly which will contain mostly bug fixes. The main goal for the next version is to expand upon the user accounts to remove the need for manually managing
+                                            license keys when moving from one device to another.<br></p>
+                                        <p>cDock:<br><br>The app that made macEnhance! We're always working on improving upon the core features of cDock and making sure it runs as smooth as possible on every version of macOS we support. The app has already
+                                            received some great new features and support for Big Sur but there's more cool new features in the pipeline as well as the good old bug fixes.<br></p>
+                                        <p>DockMate:<br><br>A great companion to cDock that also works with System Integrity Protection enabled. Bug fixes are in the works as well as some new features like a Calendar quick view and eventually support for
+                                            community created custom views.<br></p>
+                                        <p>BootBuddy:<br><br>We're still working on the transition from DarkBoot to BootBuddy and getting things ready for Big Sur but updates are on the way... hold tight.<br></p>
+                                        <h2>Thanks for using our products!</h2>
                                     </div>
                                 </div>
                             </div>
