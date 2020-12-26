@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://www.macenhance.com/apps/cdock/changes.html</loc>
-    </url>
-    <url>
         <loc>https://www.macenhance.com/blog/2020/bigsur.html</loc>
     </url>
     <url>
@@ -13,10 +10,22 @@
         <loc>https://www.macenhance.com/blog/2020/m1.html</loc>
     </url>
     <url>
+        <loc>https://www.macenhance.com/blog/2020/recoverymode.html</loc>
+    </url>
+    <url>
         <loc>https://www.macenhance.com/blog/2020/sip.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/store/pricing.html</loc>
+        <loc>https://www.macenhance.com/blog/2020/sip-enable.html</loc>
+    </url>
+    <url>
+        <loc>https://www.macenhance.com/blog/2020/sip-library-validation.html</loc>
+    </url>
+    <url>
+        <loc>https://www.macenhance.com/blog/2020/sip-sec.html</loc>
+    </url>
+    <url>
+        <loc>https://www.macenhance.com/docs/cdock/changes.html</loc>
     </url>
     <url>
         <loc>https://www.macenhance.com/about.html</loc>

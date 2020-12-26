@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Blog - macEnhance</title>
+    <title>macEnhance</title>
     <meta name="twitter:description" content="The tools you need to enhance your macOS experience.">
     <meta name="twitter:card" content="summary">
     <meta property="og:type" content="website">
@@ -112,21 +112,12 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="intro">
-                                        <h1 class="text-center">Hello World</h1>
-                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">Nov 23rd, 2020</span></p>
+                                        <h1 class="text-center">macEnhance and Library Validation</h1>
+                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">DEC 26TH, 2020</span></p><img class="img-fluid" src="../../assets/img/blog/elcapitan-system-integration-protection-hero.jpg">
                                     </div>
-                                    <h2>Welcome to the blog!</h2>
                                     <div class="text">
-                                        <p>This right here is our first blog post. Which coincides with our site redesign and the welcoming of a new developer to the team.<br></p>
-                                        <p>Today we're welcoming JSLengendre aboard the macEnhance team.<br></p>
-                                        <h2>What's in the pipeline?</h2>
-                                        <p>Right now we're hard at work on several new apps as well as improving upon the apps you already know and love.<br></p>
-                                        <p>IconChamp:<br><br>Our main focus is getting IconChamp ready to ship. IconChamp will be the first and only app to allow theming system icons on Apples new Big Sur operating system! It also wont require users to disable System Integrity Protection unlike some of our other apps. on top of that, it plans to make the process of theming icons simple and clean, automagically keeping icons themed after system or app updates without any user interaction.<br></p>
-                                        <p>MacForge:<br><br>A new update for Big Sur should be ready shortly which will contain mostly bug fixes. The main goal for the next version is to expand upon the user accounts to remove the need for manually managing license keys when moving from one device to another.<br></p>
-                                        <p>cDock:<br><br>The app that made macEnhance! We're always working on improving upon the core features of cDock and making sure it runs as smooth as possible on every version of macOS we support. The app has already received some great new features and support for Big Sur but there's more cool new features in the pipeline as well as the good old bug fixes.<br></p>
-                                        <p>DockMate:<br><br>A great companion to cDock that also works with System Integrity Protection enabled. Bug fixes are in the works as well as some new features like a Calendar quick view and eventually support for community created custom views.<br></p>
-                                        <p>BootBuddy:<br><br>We're still working on the transition from DarkBoot to BootBuddy and getting things ready for Big Sur but updates are on the way... hold tight.<br></p>
-                                        <h2>Thanks for using our products!</h2>
+                                        <h2>What is Library Validation?<br></h2>
+                                        <p>Library Validation is closely related to SIP. Library Validation is an OS feature introduced by Apple starting from macOS 10.10 and iOS 8 and is a policy governing the loading of dynamic link libraries into the process space of applications. This is a feature that any application can enable while<br>developing their software.<br><br>If an app has library-validation enabled (which is default enabled in new Xcode projects) the app will not accept code injected by MacEnhance apps, even with SIP disabled.<br><br>You can disable Library Validation using this command in Terminal.app:<br><br><code>sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true</code><br><br>To re-enable&nbsp;Library Validation run the same command but replace <code>true</code>&nbsp;with <code>false</code>.<br><br>A reboot is required for changes to take effect.</p>
                                     </div>
                                 </div>
                             </div>
