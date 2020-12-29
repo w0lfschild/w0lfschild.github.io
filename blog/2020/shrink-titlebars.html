@@ -112,52 +112,29 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="intro">
-                                        <h1 class="text-center">System Integrity Protection and you...</h1>
-                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">DEC 26th, 2020</span></p><img class="img-fluid" src="../../assets/img/blog/2020/elcapitan-system-integration-protection-hero.jpg">
+                                        <h1 class="text-center">How to shrink the TitleBars in macOS Big Sur&nbsp;</h1>
+                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">Nov 27, 2020</span></p><img class="img-fluid" src="../../assets/img/blog/2020/preview.png">
                                     </div>
                                     <div class="text">
-                                        <h2><strong>What are the security implications of turning off System Integrity Protection?</strong><br></h2>
-                                        <p>System Integrity Protection&nbsp;is a security technology in OS X El Capitan and later that's designed to help prevent potentially malicious software from modifying protected files and folders on your Mac. It has grown in scope since it's original introduction and Apple hasn't kept their documentation completely up-to-date. With that in mind we can't say for certain all of the functionality that it does or doesn't provide but here's the basics:<br></p>
-                                        <p>Using some macEnhance products you will need to turn off SIP using <code>csrutil disable</code>, but fear not this doesn't actually turn off all features of&nbsp;<strong>System Integrity Protection as you may initially&nbsp;believe</strong><br></p>
-                                        <h2><strong>The filesystem</strong><br></h2>
-                                        <p>System Integrity Protection includes protection for these parts of the system:<br></p>
+                                        <h2><strong>Notes</strong><br></h2>
                                         <ul>
-                                            <li>/System<br></li>
-                                            <li>/usr<br></li>
-                                            <li>/bin<br></li>
-                                            <li>/sbin</li>
-                                            <li>/var</li>
-                                            <li>Apps that are pre-installed with macOS<br></li>
+                                            <li>Requires turning off SIP</li>
+                                            <li>Requires MacForge</li>
                                         </ul>
-                                        <p>As of Big Sur this is actually handled under a Sub component of SIP that is not turned off with csrutil. The new component is <code>csrutil authenticated-root</code>, which can be enabled or disabled independently.&nbsp;&nbsp;</p>
-                                        <h2>Debugging and Code injection</h2>
-                                        <p>Another less documented feature of SIP is preventing debuggers from attaching to a process not owned by the debugger.<br></p>
-                                        <p>This is something that has two layers of security. The first being SIP, the second being Library Validation. With SIP disabled you still cannot load external code into a host process that has a flag called Hardened Runtime enabled unless the external code is signed with the same certificates as the host. In order to do this you must also turn off Library-Validation. This is required for MacForge but not cDock.<br></p>
-                                        <h2>Other</h2>
-                                        <p>Outside of System Integrity Protection are things like:</p>
-                                        <p>The Transparency, Consent, and Control (TCC) Framework is an Apple subsystem which denies installed applications access to ‘sensitive’ user data without explicit permission from the user (generally in the form of a pop-up message). To learn more about how TCC works, especially with Catalina, I recommend reading&nbsp;<a href="https://blog.kolide.com/macos-catalina-osquery-a6753dc3c35c"><span style="text-decoration: underline;">this article</span></a>. TCC is what handles all the controls available in System Preferences &gt; Security &amp; Privacy &gt; Privacy.</p>
-                                        <p>There is also the standard user protection of a unix system like apps needing administrator privileges to do certain tasks.&nbsp;</p>
-                                        <h2>In Summary<br></h2>
-                                        <div class="row">
-                                            <div class="col-md-6"><label>With SIP enabled</label>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" checked="" disabled=""><label class="form-check-label" for="formCheck-1">Core filesystem Integrity</label></div>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4" checked="" disabled=""><label class="form-check-label" for="formCheck-1">Protection from loading unsigned code</label></div>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3" checked="" disabled=""><label class="form-check-label" for="formCheck-1">Standard user protections</label></div>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9" checked="" disabled=""><label class="form-check-label" for="formCheck-1">Transparency, Consent, and Control (tcc)</label></div>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2" checked="" disabled=""><label class="form-check-label" for="formCheck-1">Debugging and Code injection&nbsp;protection</label></div>
-                                            </div>
-                                            <div class="col-md-6"><label>With SIP disabled</label>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5" checked="" disabled=""><label class="form-check-label" for="formCheck-1">Core filesystem Integrity</label></div>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6" disabled="" checked=""><label class="form-check-label" for="formCheck-1">Protection from loading unsigned code</label></div>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7" checked="" disabled=""><label class="form-check-label" for="formCheck-1">Standard user protections</label></div>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10" checked="" disabled=""><label class="form-check-label" for="formCheck-1">Transparency, Consent, and Control (tcc)</label></div>
-                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8" disabled=""><label class="form-check-label" for="formCheck-1">Debugging and Code injection protection</label></div>
-                                            </div>
-                                        </div>
-                                        <p><br>You're really are not losing out on much by turning off SIP but as always with something security related the choice is up to the user. </p>
-                                        <p>In truth most computer security comes from responsible use of your device like keeping your browser and OS updated, avoiding sketchy/illegal sites, not using pirated software, using secure passwords, etc...</p>
-                                        <p>Turning SIP on or off won't prevent you from downloading and running malware in the first place and if you unfortunately happened to install malware it's likely that having SIP off would have little or no impact on the damage the malware could do.</p>
-                                        <p>It's also really easy to toggle SIP back on if you change your mind and are feeling like the security risk is too great, it's just one simple command in terminal to turn it back on, no hassle with booting to recovery mode.&nbsp;</p>
+                                        <h2><strong>How to:</strong><br></h2>
+                                        <ul>
+                                            <li>Download and setup MacForge</li>
+                                            <li>Search for the plugin MEMiniMe</li>
+                                            <li>Install MEMiniMe</li>
+                                            <li>Enjoy mini titlebars</li>
+                                        </ul>
+                                        <h2>Alliteratively:<br></h2>
+                                        <p><strong>Alliteratively</strong>&nbsp;if you just want to have the titlebar and toolbar separated like they were in previous versions of macOS you can run this simple command in terminal. Once you've run the command you'll need to log out and back in to see the changes take effect.<br></p>
+                                        <ul>
+                                            <li>Enable&nbsp;<code>defaults write -g NSWindowSupportsAutomaticInlineTitle -bool false<br></code></li>
+                                            <li>Disable&nbsp;<code>defaults delete -g NSWindowSupportsAutomaticInlineTitle</code>&nbsp;</li>
+                                        </ul>
+                                        <p><strong>And results look like this:</strong></p><img class="img-fluid" src="../../assets/img/blog/2020/EmPthp0WMAApJmd.jpg">
                                     </div>
                                 </div>
                             </div>
