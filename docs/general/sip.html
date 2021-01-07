@@ -112,31 +112,32 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="intro">
-                                        <h1 class="text-center">macEnhance and Apple Silicon</h1>
-                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">Nov 27, 2020</span></p><img class="img-fluid" src="../../assets/img/blog/2020/m1-chip-macbook-air-pro.jpg">
+                                        <h1 class="text-center">macEnhance and System Integrity Protection</h1>
+                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">nov 23rd, 2020</span></p><img class="img-fluid" src="../../assets/img/blog/2020/elcapitan-system-integration-protection-hero.jpg">
                                     </div>
                                     <div class="text">
-                                        <h2>What is new with&nbsp;Apple Silicon in relation to macEnhance?<br></h2>
-                                        <h2>Recovery Mode<br></h2>
-                                        <p><strong>T</strong>o check startup disk, reinstall macOS, restore from a backup, change security settings<br></p>
-                                        <p style="font-family: Montserrat, sans-serif;">Press and hold the Power button until the display shows&nbsp;<strong><em>Loading Startup Options</em></strong><em>,</em>&nbsp;then release it. This takes you to the&nbsp;<strong><em>Startup Options</em></strong>&nbsp;screen.<br></p>
-                                        <p style="font-family: Montserrat, sans-serif;">Select the&nbsp;<strong><em>Options</em></strong>&nbsp;icon, then click&nbsp;<strong><em>Continue</em></strong>&nbsp;underneath it.<br></p>
-                                        <p style="font-family: Montserrat, sans-serif;">Tools provided include:<br></p>
+                                        <h2><strong>&nbsp;System Integrity Protection and MacEnhance</strong><br></h2>
+                                        <p>Some MacEnhance applications cannot fully function, on a normally configured machine due to System Integrity Protection (SIP).<br></p>
+                                        <p>MacEnhance apps that require SIP to be disabled work by altering pre-existing code. In order to change some features of other apps, we use a technique called code injection. This means we add some additional code to an app whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of macOS on the disk.</p>
+                                        <p>If you decide to modify the settings, you will be able to install all MacEnhance apps. Just to be clear… Your machine may be less secure when you disable extra security features. It is entirely your decision to modify the settings.</p>
+                                        <h2>What is System Integrity Protection?<br></h2>
+                                        <p>System Integrity Protection&nbsp;is a security technology in OS X El Capitan and later that's designed to help prevent potentially malicious software from modifying protected files and folders on your Mac. System Integrity Protection restricts the&nbsp;<a href="https://support.apple.com/kb/HT204012">root user account</a>&nbsp;and limits the actions that the root user can perform on protected parts of the Mac operating system.<br><br>Before System Integrity Protection, the root user&nbsp;had no permission restrictions,&nbsp;so it could access any system folder or app on your Mac. Software obtained root-level access when you entered your administrator name and password to install&nbsp;the software. That allowed the software to modify or overwrite any system file or app.<br><br>System Integrity Protection includes protection for these parts of the system:<br></p>
                                         <ul>
-                                            <li>Main window – Restore from Time Machine, Reinstall macOS, Safari, Disk Utility</li>
-                                            <li>Apple menu – Startup Disk, Restart, Shut Down</li>
-                                            <li>Utilities menu – Startup Security Utility, Terminal, Share Disk</li>
-                                            <li>Online help is available when you open Safari.</li>
+                                            <li>/System<br></li>
+                                            <li>/usr<br></li>
+                                            <li>/bin<br></li>
+                                            <li>/sbin</li>
+                                            <li>/var</li>
+                                            <li>Apps that are pre-installed with macOS<br></li>
                                         </ul>
-                                        <h2>iOS Applications<br></h2>
-                                        <p>A new feature of M1 machine is that they allow users to run iOS applications on their Mac.<br></p>
-                                        <p>At present if you disable System Integrity Protection you will be unable to launch iOS apps. It is unclear as of now if that is the intended behavior.</p>
-                                        <h2>Code Injection<br></h2>
-                                        <p>Currently we use the open source&nbsp;<a href="https://github.com/rentzsch/mach_inject"><span style="text-decoration: underline;">mach_inject</span></a>&nbsp;project for loading our plugins. Updates will need to be made to this underlying injection system, beyond just re-compiling the code, to support M1 machines.<br></p>
-                                        <p>It is also possible extra protection has been built in but until we get our own M1 machines for testing we don't have much additional info.</p>
-                                        <h2>What apps is this information important for?<br></h2>
-                                        <p>This info is relevant for cDock, MacForge, DarkBoot and any of our other products that require modifications to System Integrity Protection in order to function.</p>
-                                        <p>Stay tuned for updates here or join the Discord for up to date information.</p>
+                                        <p>Paths and apps that third-party apps and installers can continue to write to include:<br></p>
+                                        <ul>
+                                            <li>/Applications<br></li>
+                                            <li>/Library<br></li>
+                                            <li>/usr<br></li>
+                                            <li>/local</li>
+                                        </ul>
+                                        <p>System Integrity Protection is designed to allow modification of these protected parts only by&nbsp;processes that are signed by Apple and have special entitlements to write to system files, such as Apple software updates and Apple installers. Apps that you download from the Mac App Store already work with System Integrity Protection. Other third-party software, if it conflicts with System Integrity Protection, might be set aside when you upgrade to OS X El Capitan or later.<br><br>System Integrity Protection also helps prevent software from&nbsp;selecting a startup disk. To&nbsp;select a startup disk, choose System Preferences from the Apple menu, then click Startup Disk. Or hold down the Option key while you restart, then choose from the list of startup disks.<br></p>
                                     </div>
                                 </div>
                             </div>
