@@ -77,6 +77,12 @@
                         </ul>
                         <h6 class="text-secondary" style="font-weight: bold;font-size: 16px;">Blog<br></h6>
                         <ul class="plain-ul">
+                            <li style="font-weight: bold;color: var(--gray-dark);font-size: 14px;">2021<ul class="plain-ul">
+                                    <li style="font-size: 14px;color: rgb(33,37,41);font-family: Montserrat, sans-serif;font-weight: normal;"><a href="/blog/2021/m1-a-new-hope.html" style="color: rgb(33,37,41);">Apple Silicon : A New Hope</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="plain-ul">
                             <li style="font-weight: bold;color: var(--gray-dark);font-size: 14px;">2020<ul class="plain-ul">
                                     <li style="font-size: 14px;color: rgb(33,37,41);font-family: Montserrat, sans-serif;font-weight: normal;"><a href="../../blog/2020/m1.html" style="color: rgb(33,37,41);">Apple Silicon (M1)</a></li>
                                     <li style="font-size: 14px;color: rgb(33,37,41);font-weight: normal;"><a href="../../blog/2020/helloworld.html" style="color: rgb(33,37,41);">Hello World 👋</a></li>
@@ -115,15 +121,19 @@
                                         <h1 class="text-center">How to enter Recovery Mode&nbsp;</h1>
                                         <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">Nov 27, 2020</span></p><img class="img-fluid" src="../../assets/img/blog/2020/630-recovery-mode.png">
                                     </div>
-                                    <div class="text">
-                                        <h2><strong>How to start Mac in Recovery Mode on any mac</strong><br></h2>
+                                    <div class="text"><code></code>
+                                        <h2><strong>How to start Mac in Recovery Mode via terminal</strong><br></h2>
                                         <ul>
                                             <li>Open terminal</li>
-                                            <li>Run the following commands (requires admin password)<ul>
+                                            <li>Run the following commands (requires admin password) (Intel)<ul>
                                                     <li><code>sudo nvram internet-recovery-mode=RecoveryModeDisk<br>sudo reboot<br></code></li>
                                                 </ul>
                                             </li>
-                                        </ul><code></code>
+                                            <li>Run the following commands (requires admin password) (Apple)<ul>
+                                                    <li><code>sudo nvram recovery-boot-mode=unused<br>sudo reboot<br></code></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
                                         <h2><strong>How to start Mac in Recovery Mode (Intel)</strong><br></h2>
                                         <ul>
                                             <li>Restart your computer</li>
