@@ -1,78 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://www.macenhance.com/blog/2020/bigsur.html</loc>
+        <loc>/blog/2020/bigsur.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/blog/2020/helloworld.html</loc>
+        <loc>/blog/2020/helloworld.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/blog/2020/m1.html</loc>
+        <loc>/blog/2020/m1.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/blog/2020/shrink-titlebars.html</loc>
+        <loc>/blog/2021/beta-season.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/blog/2021/m1-hope.html</loc>
+        <loc>/blog/2021/coredock.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/docs/cdock/changes.html</loc>
+        <loc>/blog/2021/m1-hope.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/docs/general/recoverymode.html</loc>
+        <loc>/docs/cdock/changes.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/docs/general/sip.html</loc>
+        <loc>/docs/general/recoverymode.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/docs/general/sip-enable.html</loc>
+        <loc>/docs/general/sip.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/docs/general/sip-library-validation.html</loc>
+        <loc>/docs/general/sip-enable.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/docs/general/sip-sec.html</loc>
+        <loc>/docs/general/sip-library-validation.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/about.html</loc>
+        <loc>/docs/general/sip-sec.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/blog.html</loc>
+        <loc>/guides/shrink-titlebars.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/bootbuddy.html</loc>
+        <loc>/about.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/cdock.html</loc>
+        <loc>/blog.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/classicfolders.html</loc>
+        <loc>/bootbuddy.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/contact.html</loc>
+        <loc>/cdock.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/dockmate.html</loc>
+        <loc>/classicfolders.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/flashlight.html</loc>
+        <loc>/contact.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/iconchamp.html</loc>
+        <loc>/dockmate.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/index.html</loc>
+        <loc>/flashlight.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/macforge.html</loc>
+        <loc>/iconchamp.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/store.html</loc>
+        <loc>/index.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/todeska.html</loc>
+        <loc>/macforge.html</loc>
     </url>
     <url>
-        <loc>https://www.macenhance.com/vpkmacos.html</loc>
+        <loc>/store.html</loc>
+    </url>
+    <url>
+        <loc>/todeska.html</loc>
+    </url>
+    <url>
+        <loc>/vpkmacos.html</loc>
     </url>
 </urlset>
