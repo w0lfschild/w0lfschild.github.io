@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Blog - macEnhance</title>
+    <title>macEnhance</title>
     <meta name="twitter:description" content="The tools you need to enhance your macOS experience.">
     <meta name="twitter:card" content="summary">
     <meta property="og:type" content="website">
@@ -161,21 +161,24 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="intro">
-                                        <h1 class="text-center">Hello World</h1>
-                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">Nov 23rd, 2020</span></p>
-                                    </div><img class="img-fluid" src="../../assets/img/blog/2020/1_U-R58ahr5dtAvtSLGK2wXg.png" style="margin: 20px 0px;">
-                                    <h2>Welcome to the blog!</h2>
+                                        <h1 class="text-center">macEnhance and ABI on the new M1</h1>
+                                        <p class="text-center"><span class="by">by</span> <a href="#">Wolfgang Baird</a><span class="date">Feb 23rd, 2021</span></p><img class="img-fluid" src="../../assets/img/blog/2020/elcapitan-system-integration-protection-hero.jpg">
+                                    </div>
                                     <div class="text">
-                                        <p>This right here is our first blog post. Which coincides with our site redesign and the welcoming of a new developer to the team.<br></p>
-                                        <p>Today we're welcoming JSLengendre aboard the macEnhance team.<br></p>
-                                        <h2>What's in the pipeline?</h2>
-                                        <p>Right now we're hard at work on several new apps as well as improving upon the apps you already know and love.<br></p>
-                                        <p>IconChamp:<br><br>Our main focus is getting IconChamp ready to ship. IconChamp will be the first and only app to allow theming system icons on Apples new Big Sur operating system! It also wont require users to disable System Integrity Protection unlike some of our other apps. on top of that, it plans to make the process of theming icons simple and clean, automagically keeping icons themed after system or app updates without any user interaction.<br></p>
-                                        <p>MacForge:<br><br>A new update for Big Sur should be ready shortly which will contain mostly bug fixes. The main goal for the next version is to expand upon the user accounts to remove the need for manually managing license keys when moving from one device to another.<br></p>
-                                        <p>cDock:<br><br>The app that made macEnhance! We're always working on improving upon the core features of cDock and making sure it runs as smooth as possible on every version of macOS we support. The app has already received some great new features and support for Big Sur but there's more cool new features in the pipeline as well as the good old bug fixes.<br></p>
-                                        <p>DockMate:<br><br>A great companion to cDock that also works with System Integrity Protection enabled. Bug fixes are in the works as well as some new features like a Calendar quick view and eventually support for community created custom views.<br></p>
-                                        <p>BootBuddy:<br><br>We're still working on the transition from DarkBoot to BootBuddy and getting things ready for Big Sur but updates are on the way... hold tight.<br></p>
-                                        <h2>Thanks for using our products!</h2>
+                                        <h2>What is an application binary interface (ABI)?<br></h2>
+                                        <p>In computer software, an application binary interface (ABI) is an interface between two binary program modules. Often, one of these modules is a library or operating system facility, and the other is a program that is being run by a user.<br></p>
+                                        <p>On Apples new M1 (and newer) chips all Apple process are now compiled as <a href="https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/armv8-a-architecture-2016-additions">arm64e</a>, not the plain old arm64.</p>
+                                        <p>In order to communicate with and load external code into these arm64e processes the new arm64e preview ABI must be enabled.<br></p>
+                                        <p>cDock and MacForge can both automate this process but for those interested in learning that they're actually setting you can enable the arm64e preview abi yourself with the following instructions<br></p>
+                                        <ul>
+                                            <li>Reboot your Mac with Apple silicon into Recovery mode.<br></li>
+                                            <li>Disable System Integrity Protection.<br></li>
+                                            <li>Reboot back to macOS.<br></li>
+                                            <li>Add the&nbsp;-arm64e_preview_abi&nbsp;boot arg to your system.<br></li>
+                                            <li><code>sudo nvram boot-args=-arm64e_preview_abi</code></li>
+                                        </ul>
+                                        <p>To revert the change simply reset your nrvram boot args or re-enable&nbsp;System Integrity Protection.<br></p>
+                                        <p>A reboot is required for changes to take effect.</p>
                                     </div>
                                 </div>
                             </div>

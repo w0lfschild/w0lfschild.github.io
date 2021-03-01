@@ -22,10 +22,19 @@
         <loc>/docs/cdock/changes.html</loc>
     </url>
     <url>
+        <loc>/docs/dockmate/changes.html</loc>
+    </url>
+    <url>
+        <loc>/docs/dockmate/faq.html</loc>
+    </url>
+    <url>
         <loc>/docs/general/recoverymode.html</loc>
     </url>
     <url>
         <loc>/docs/general/sip.html</loc>
+    </url>
+    <url>
+        <loc>/docs/general/sip-abi.html</loc>
     </url>
     <url>
         <loc>/docs/general/sip-enable.html</loc>
