@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>/apps/ifiltermusic.html</loc>
+    </url>
+    <url>
         <loc>/blog/2020/bigsur.html</loc>
     </url>
     <url>
@@ -17,6 +20,12 @@
     </url>
     <url>
         <loc>/blog/2021/m1-hope.html</loc>
+    </url>
+    <url>
+        <loc>/blog/2021/oldmusic.html</loc>
+    </url>
+    <url>
+        <loc>/blog/stateoftheapp.html</loc>
     </url>
     <url>
         <loc>/docs/cdock/changes.html</loc>
@@ -44,6 +53,12 @@
     </url>
     <url>
         <loc>/docs/general/sip-sec.html</loc>
+    </url>
+    <url>
+        <loc>/docs/iconchamp/changes.html</loc>
+    </url>
+    <url>
+        <loc>/docs/iconchamp/faq.html</loc>
     </url>
     <url>
         <loc>/guides/shrink-titlebars.html</loc>
