@@ -157,66 +157,105 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <h6 class="text-secondary" style="font-weight: bold;font-size: 20px;margin-top: 50px;">DockMate : FAQ</h6>
+                    <h6 style="font-weight: bold;font-size: 30px;margin-top: 50px;color: #00b7fd;">cDock : Frequently Asked Questions<br></h6>
                     <div class="row">
-                        <div class="accordion" role="tablist" id="accordion-2">
-                            <div class="accordion-item" style="border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
-                                <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-1" aria-expanded="false" aria-controls="accordion-2 .item-1" style="display: block;font-size: 16px;color: #930fa5;">Will DockMate work without enabling Automation or Screen Recording?<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
-                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                                        </svg></button></h2>
-                                <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-2">
-                                    <div class="accordion-body">
-                                        <p>No. Unfortunately that is not possible.<br><br>Automation is required to get info from the Dock about which tile the mouse is currently over,&nbsp;when the mouse leaves and enters the Dock and&nbsp;preform actions on application windows like focusing, hiding or closing a window.<br><br>Screen Recording is required to capture the preview images of each application.<br><br>Additionally Calendar permission is required to display the events of the day in the special Calendar preview.</p>
+                        <div class="col">
+                            <p style="color: #00b7fd;margin-top: 25px;font-size: 20px;"><strong>Getting Started</strong></p>
+                            <div class="accordion" role="tablist" id="accordion-2">
+                                <div class="accordion-item" style="border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-1" aria-expanded="false" aria-controls="accordion-2 .item-1" style="display: block;font-size: 16px;">What is System Integrity Protection and how do I turn it off?<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                            </svg></button></h2>
+                                    <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-2">
+                                        <div class="accordion-body">
+                                            <p>Read more by selecting the Documents dropdown in the sidebar and checking the links in the System Integrity Protection category.<br><br>You can also follow this link:&nbsp;<a href="https://www.macenhance.com/docs/general/sip.html">What is SIP</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-2" aria-expanded="false" aria-controls="accordion-2 .item-2" style="display: block;font-size: 16px;">I've turned off&nbsp;System Integrity Protection but the app keeps telling me I haven't<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                            </svg>&nbsp;</button></h2>
+                                    <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-2">
+                                        <div class="accordion-body">
+                                            <p>It's likely that SIP wasn't properly disabled. You can open terminal and run the following command to see the current status of SIP on your machine.<br></p><code style="color: var(--bs-red);">csrutil status<br></code>
+                                            <p><br>The result should be: <br></p><code style="color: var(--bs-red);">System Integrity Protection status: disabled.<br></code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="border-top-left-radius: 0px;border-top-right-radius: 0px;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-3" aria-expanded="false" aria-controls="accordion-2 .item-3" style="display: block;background: rgba(0,0,0,0);">Themes aren't applying at startup<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                            </svg></button></h2>
+                                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-2">
+                                        <div class="accordion-body">
+                                            <p>Try updating to the latest version of cDock.<br><br>If you're running cDock version 4.5 or earlier you can try adding the cDock Helper to your login items manually.&nbsp; The&nbsp;helper process is located inside the main app at.<br></p><code style="color: var(--bs-red);">../cDock.app/Contents/Library/LoginItems/cDock Helper.app<br></code>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
-                                <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-2" aria-expanded="false" aria-controls="accordion-2 .item-2" style="display: block;color: #930fa5;font-size: 16px;">Will DockMate show a preview for ________ 3rd party calendar app?<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
-                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                                        </svg></button></h2>
-                                <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-2">
-                                    <div class="accordion-body">
-                                        <p>Not without an update to the app but as long as the 3rd party app syncs with the System calendar then it will be easy to add in a future update.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p style="color: #00b7fd;margin-top: 25px;font-size: 20px;"><strong>Troubleshooting</strong></p>
+                            <div class="accordion" role="tablist" id="accordion-3">
+                                <div class="accordion-item" style="border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-1" aria-expanded="false" aria-controls="accordion-3 .item-1" style="display: block;font-size: 16px;">Where is&nbsp;my&nbsp;license and how to&nbsp;recover if&nbsp;it&nbsp;is&nbsp;lost?<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                            </svg></button></h2>
+                                    <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-3">
+                                        <div class="accordion-body">
+                                            <p>When purchased directly from our website you should receive an&nbsp;email confirming the transaction and containing the license. Sometimes it&nbsp;may take a&nbsp;little longer, but at&nbsp;most 5-10 minutes. <br><br>When purchasing in-app your license should be automatically applied and can be viewed in the apps preferences. You should also receive an email containing your purchase and license info.<br><br>If&nbsp;you didn’t receive an&nbsp;email or&nbsp;lost your license the fastest way to&nbsp;retrieve it&nbsp;is&nbsp;from&nbsp;<a href="https://my.paddle.com/">my.paddle.com</a>&nbsp;— you might need to&nbsp;register first or&nbsp;use restore password form.<br></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
-                                <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-3" aria-expanded="false" aria-controls="accordion-2 .item-3" style="display: block;color: #930fa5;font-size: 16px;">DockMate isn't showing up in System Preferences<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
-                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                                        </svg><br></button></h2>
-                                <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-2">
-                                    <div class="accordion-body">
-                                        <p>Try restarting System Preferences and DockMate.</p>
+                                <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-2" aria-expanded="false" aria-controls="accordion-3 .item-2" style="display: block;font-size: 16px;">I've updated to cDock 4 and my license is not working, what's going on?<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                            </svg></button></h2>
+                                    <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-3">
+                                        <div class="accordion-body">
+                                            <p>It’s likely you’re trying to use a cDock version 3 license with version 4.<br><br>cDock version 4 is a paid upgrade and is required for use on Big Sur.&nbsp;<br><br>If you have not upgraded to Big Sur, you can continue to use cDock version 3 on Catalina and below.&nbsp;<br><br>If you need a download link for an older version, or the current version you can find them here <a href="https://www.macenhance.com/docs/cdock/changes.html">https://www.macenhance.com/docs/cdock/changes.html</a><br></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
-                                <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-4" aria-expanded="false" aria-controls="accordion-2 .item-4" style="display: block;color: #930fa5;font-size: 16px;">Not all windows are showing for an application when I mouse over<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
-                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                                        </svg></button></h2>
-                                <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-2">
-                                    <div class="accordion-body">
-                                        <p>DockMate only shows windows that have an accessibility element. Some applications may draw their own custom window that is not reported to the system as a normal window. Unfortunately it is unlikely support for specific edge-cases will be added.</p>
+                                <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-3" aria-expanded="false" aria-controls="accordion-3 .item-3" style="display: block;font-size: 16px;">Why is my license not activating or&nbsp;stops working every once in&nbsp;a&nbsp;while?<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                            </svg></button></h2>
+                                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-3">
+                                        <div class="accordion-body">
+                                            <p>First, make sure you’re using correct cDock version.&nbsp;cDock 3 and 4 versions use different licensing and are not compatible with each other.<br><br>If&nbsp;direct-download license is&nbsp;not activating, make sure you’re using correct email and not exceeding three activations per license, otherwise, deactivate it&nbsp;on&nbsp;other machines first.<br><br>If&nbsp;none of&nbsp;the above helps or&nbsp;after successful activation your copy of&nbsp;cDock stops working or&nbsp;asks for activation again please try restarting or reinstalling cDock. Make sure you have downloaded the latest version from our website depending on&nbsp;your license and try activating it&nbsp;again.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
-                                <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-5" aria-expanded="false" aria-controls="accordion-2 .item-5" style="display: block;color: #930fa5;font-size: 16px;">Clicking on the window controls does nothing<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
-                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                                        </svg></button></h2>
-                                <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-2">
-                                    <div class="accordion-body">
-                                        <p>It's possible DockMate has lost the reference to that window or that the window can not perform that specific action to begin with. You might try restarting DockMate to see if the issue resolves itself.</p>
+                                <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-4" aria-expanded="false" aria-controls="accordion-3 .item-4" style="display: block;font-size: 16px;">Why does nothing happen when selecting a theme?<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                            </svg><br></button></h2>
+                                    <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-3">
+                                        <div class="accordion-body">
+                                            <p>Most likely the cDock.bundle has not been loaded by the helper process. There are several reasons why this could happen, but most likely it has to do with System Integrity Protection being incorrectly configured.<br><br>You may also consider re-installing the app.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item" style="border-top-left-radius: 0px;border-top-right-radius: 0px;">
-                                <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-6" aria-expanded="false" aria-controls="accordion-2 .item-6" style="display: block;background: rgba(0,0,0,0);color: #930fa5;">The preview shown for a window is not current or blank<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
-                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                                        </svg></button></h2>
-                                <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-2">
-                                    <div class="accordion-body">
-                                        <p>When some windows are hidden the system will provide back only a blank image when DockMate tries to grab a screen capture of the window. When possible we try to show the last available screenshot of a window in this case.</p>
+                                <div class="accordion-item" style="border-radius: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: none;border-left-style: solid;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-5" aria-expanded="false" aria-controls="accordion-3 .item-5" style="display: block;font-size: 16px;">Why is the screen is flashing black and I can't access the Dock?&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down" style="position:relative; float: right">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                            </svg></button></h2>
+                                    <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-3">
+                                        <div class="accordion-body">
+                                            <p>If you see the screen flashing black that means the Dock is repeatedly crashing. This is likely happening because you are using a version of cDock that is not compatible with your operating system.<br><br>The Dock changes to some degree with each new release of macOS so compatibility across older and newer macOS versions is not guaranteed.<br><br>If you are running a macOS beta and come across this behavior please get in touch so we can look into potential fixes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="border-top-left-radius: 0px;border-top-right-radius: 0px;">
+                                    <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-6" aria-expanded="true" aria-controls="accordion-3 .item-6" style="display: block;background: rgba(0,0,0,0);">How do I uninstall cDock?</button></h2>
+                                    <div class="accordion-collapse collapse show item-6" role="tabpanel" data-bs-parent="#accordion-3">
+                                        <div class="accordion-body">
+                                            <p>You can just move cDock to the trash, empty the trash and restart.<br>To do a more through clean try and app like&nbsp;<a href="https://freemacsoft.net/appcleaner/">AppCleaner</a><br><br>Note that some settings simply control system Dock settings stored in<br>~/Library/Preferences/com.apple.dock.plist<br><br>These settings will stay as they were already set when cDock is deleted.<br></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
